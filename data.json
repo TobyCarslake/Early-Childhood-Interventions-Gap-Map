@@ -1,0 +1,985 @@
+{
+"data": [
+ {
+   "ID": 1,
+   "Author": "Borisova, I., Pisani, L., Dowd, A. J., & Lin, H.-C. (2017). [Ethiopia]",
+   "Title": "Effective interventions to strengthen early language and literacy skills in low-income countries",
+   "Publication date": "1-Jan-17",
+   "Intervention": "Comparative",
+   "Outcomes": "Africa and the Middle East,2014-2017,Preschooler",
+   "Link": "https://doi.org/10.1080/03004430.2016.1255607"
+ },
+ {
+   "ID": 2,
+   "Author": "Kagitcibasi, C., Sunar, D., & Bekman, S. (2001). [Turkey]",
+   "Title": "Long-term effects of early intervention: Turkish low-income mothers and children",
+   "Publication date": "1-Jan-01",
+   "Intervention": "Comparative",
+   "Outcomes": "Africa and the Middle East,1998-2005,Preschooler",
+   "Link": "https://doi.org/10.1016/S0193-3973(01)00071-5"
+ },
+ {
+   "ID": 3,
+   "Author": "Kagitcibasi, C., Sunar, D., Bekman, S., Baydar, N., & Cemalcilar, Z. (2009).  [Turkey]",
+   "Title": "Continuing effects of early enrichmentin adult life: The Turkish Early Enrichment Project 22 years later",
+   "Publication date": "1-Jan-09",
+   "Intervention": "Comparative",
+   "Outcomes": "Africa and the Middle East,2006-2009,Preschooler",
+   "Link": "https://doi.org/10.1016/j.appdev.2009.05.003"
+ },
+ {
+   "ID": 4,
+   "Author": "Rao, N., & Pearson, E. (2007). [Cambodia]",
+   "Title": "An evaluation of early childhood care and education programmes in Cambodia",
+   "Publication date": "1-Jan-07",
+   "Intervention": "Comparative",
+   "Outcomes": "East Asia,2006-2009,Preschooler",
+   "Link": ""
+ },
+ {
+   "ID": 5,
+   "Author": "Rolla San Francisco, A., Arias, M., Villers, R., & Snow, C. (2006). [Costa Rica]",
+   "Title": "Evaluating the impact of different early literacy interventions on low-income Costa Rican kindergarteners",
+   "Publication date": "1-Jan-06",
+   "Intervention": "Comparative",
+   "Outcomes": "Latin America and the Caribbean,2006-2009,Preschooler",
+   "Link": "https://doi.org/10.1016/j.ijer.2006.11.002"
+ },
+ {
+   "ID": 6,
+   "Author": "Armecin, G., Behrman, J. R., Ghuman, S., Gultiano, S., King, E. M., Lee, N., & World Bank, W. D. C. (2006). [Philippines]",
+   "Title": "Early Childhood Development Through an Integrated Program: Evidence from the Philippines",
+   "Publication date": "1-Jan-06",
+   "Intervention": "Integrated",
+   "Outcomes": "East Asia,2006-2009,Newborn,Infant,Toddler,Preschooler",
+   "Link": ""
+ },
+ {
+   "ID": 7,
+   "Author": "Cueto, S., Guerrero, G., Leon, J., Zevallos, A., & Sugimaru, C. (2009). [Peru]",
+   "Title": "Promoting Early Childhood Development through a Public Programme: Wawa Wasi in Peru",
+   "Publication date": "1-Jan-09",
+   "Intervention": "Integrated",
+   "Outcomes": "Latin America and the Caribbean,2006-2009,Infant,Toddler",
+   "Link": ""
+ },
+ {
+   "ID": 8,
+   "Author": "Peairson, S., Austin, A. M., de Aquino, C. N., & de Burro, E. U. (2008). [Paraguay]",
+   "Title": "Cognitive development and home environment of rural Paraguayan infants and toddlers",
+   "Publication date": "1-Jan-08",
+   "Intervention": "Integrated",
+   "Outcomes": "Latin America and the Caribbean,2006-2009,Newborn,Infant,Toddler",
+   "Link": ""
+ },
+ {
+   "ID": 9,
+   "Author": "Watanabe, K., Flores, R., Fujiwara, J., & Tran, L. T. H. (2005). [Vietnam]",
+   "Title": "Early childhood development interventions and cognitive development of young children in rural Vietnam",
+   "Publication date": "1-Jan-05",
+   "Intervention": "Integrated",
+   "Outcomes": "East Asia,1998-2005,Other",
+   "Link": ""
+ },
+ {
+   "ID": 10,
+   "Author": "Aboud, F. E., & Hossain, K. (2011).  [Bangladesh]",
+   "Title": "The impact of preprimary school on primary school achievement in Bangladesh",
+   "Publication date": "1-Jan-11",
+   "Intervention": "Child-focused",
+   "Outcomes": "South and West Asia,2010-2013,Preschooler",
+   "Link": "https://doi.org/10.1016/j.ecresq.2010.07.001"
+ },
+ {
+   "ID": 11,
+   "Author": "Aboud, F. E., Hossain, K., & O'Gara, C. (2008). [Bangladesh]",
+   "Title": "The Succeed Project: challenging early school failure in Bangladesh",
+   "Publication date": "1-Jan-08",
+   "Intervention": "Child-focused",
+   "Outcomes": "South and West Asia,2006-2009,Preschooler",
+   "Link": ""
+ },
+ {
+   "ID": 12,
+   "Author": "Aguilar, R., & Tansini, R. (2012). [Uruguay]",
+   "Title": "Joint analysis of preschool attendance and school performance in the short and long-run",
+   "Publication date": "1-Jan-12",
+   "Intervention": "Child-focused",
+   "Outcomes": "Latin America and the Caribbean,2010-2013,Preschooler",
+   "Link": ""
+ },
+ {
+   "ID": 13,
+   "Author": "American Institutes for Research. (2013). [Bangladesh; China; the Democratic Republic of Congo (DRC); Ethiopia; Tajikistan; Yemen]",
+   "Title": "Getting Ready for School: A Child-to-Child Approach",
+   "Publication date": "1-Jan-13",
+   "Intervention": "Child-focused",
+   "Outcomes": "South and West Asia,Africa and the Middle East,East Asia,2010-2013,Preschooler",
+   "Link": "http://www.childtochild.org.uk/wp-content/uploads/2014/07/AIR-Report-of-Child-to-Child-Pilot-Findings_June_-2013_A4.pdf"
+ },
+ {
+   "ID": 14,
+   "Author": "Behrman, J. R., Cheng, Y., & Todd, P. E. (2004). [Bolivia]",
+   "Title": "Evaluating preschool Programs when length of exposure to the program varies: A nonparametric approach",
+   "Publication date": "1-Jan-04",
+   "Intervention": "Child-focused",
+   "Outcomes": "Latin America and the Caribbean,1998-2005,Infant,Toddler,Preschooler",
+   "Link": ""
+ },
+ {
+   "ID": 15,
+   "Author": "Bekman, S., Aksu-Koc, A., & Erguvanli-Taylan, E. (2012). [Turkey]",
+   "Title": "Effectiveness of an intervention program for six year- olds: a summer-school model",
+   "Publication date": "1-Jan-11",
+   "Intervention": "Child-focused",
+   "Outcomes": "Africa and the Middle East,2010-2013,Preschooler",
+   "Link": ""
+ },
+ {
+   "ID": 16,
+   "Author": "Berlinski, S., Galiani, S., & Gertler, P. (2009). [Argentina]",
+   "Title": "The effect of pre-primary education on primary school performance",
+   "Publication date": "1-Jan-08",
+   "Intervention": "Child-focused",
+   "Outcomes": "Latin America and the Caribbean,2006-2009,Preschooler",
+   "Link": ""
+ },
+ {
+   "ID": 17,
+   "Author": "Bernal, R., & Fernandez, C. (2013). [Colombia]",
+   "Title": "Subsidized childcare and child development in Colombia: Effects of Hogares Comunitarios de Bienestar as a function of timing and length of exposure",
+   "Publication date": "1-Jan-13",
+   "Intervention": "Child-focused",
+   "Outcomes": "Latin America and the Caribbean,2010-2013,Infant,Toddler,Preschooler",
+   "Link": "https://doi.org/10.1016/j.socscimed.2012.10.029"
+ },
+ {
+   "ID": 18,
+   "Author": "Brinkman, S. A., Hasan, A., Jung, H., Kinnell, A., & Pradhan, M. (2015). [Indonesia]",
+   "Title": "The Impact of Expanding Access to Early Childhood Services in Rural Indonesia: Evidence from Two Cohorts of Children",
+   "Publication date": "1-Jan-15",
+   "Intervention": "Child-focused",
+   "Outcomes": "East Asia,2014-2017,Toddler,Preschooler",
+   "Link": ""
+ },
+ {
+   "ID": 19,
+   "Author": "Celebioglu Morkoc, O., & Aktan Acar, E. (2014). [Turkey]",
+   "Title": "Effectiveness of Multipurpose Unit Early Classroom Intervention Program for 4-5-Year-Old Children",
+   "Publication date": "1-Jan-14",
+   "Intervention": "Child-focused",
+   "Outcomes": "Africa and the Middle East,2014-2017,Preschooler",
+   "Link": ""
+ },
+ {
+   "ID": 20,
+   "Author": "Cortazar, A. (2015). [Chile]",
+   "Title": "Long-term effects of public early childhood education on academicachievement in Chile",
+   "Publication date": "1-Jan-15",
+   "Intervention": "Child-focused",
+   "Outcomes": "Latin America and the Caribbean,2014-2017,Toddler,Preschooler",
+   "Link": "https://doi.org/10.1016/j.ecresq.2015.01.003"
+ },
+ {
+   "ID": 21,
+   "Author": "Cueto, S., Leon, J., Miranda, A., Dearden, K., Crookston, B. T., & Behrman, J. R. (2016). [Peru]",
+   "Title": "Does pre-school improve cognitive abilities among children with early-life stunting? A longitudinal study for Peru",
+   "Publication date": "1-Jan-16",
+   "Intervention": "Child-focused",
+   "Outcomes": "Latin America and the Caribbean,2014-2017,Preschooler",
+   "Link": "https://doi.org/10.1016/j.ijer.2015.09.011"
+ },
+ {
+   "ID": 22,
+   "Author": "Duc, N. H. C. (2016). [Vietnam]",
+   "Title": "Developmental risk factors in Vietnamese preschool-age children: Cross-sectional survey",
+   "Publication date": "1-Jan-16",
+   "Intervention": "Child-focused",
+   "Outcomes": "East Asia,2014-2017,Preschooler",
+   "Link": "https://doi.org/doi:10.1111/ped.12748"
+ },
+ {
+   "ID": 23,
+   "Author": "Forster M, C. E., & Rojas-Barahona, C. A. (2014). [Chile]",
+   "Title": "Disadvantaged preschool children from rural areas: the importance of home practices and nursery attendance in the development of early literacy skills",
+   "Publication date": "1-Jan-14",
+   "Intervention": "Child-focused",
+   "Outcomes": "Latin America and the Caribbean,2014-2017,Preschooler",
+   "Link": "https://doi.org/10.1080/11356405.2014.973668"
+ },
+ {
+   "ID": 24,
+   "Author": "Gong, X., Xu, D., & Han, W. J. (2016). [China]",
+   "Title": "The effects of preschool attendance on adolescent outcomes in rural China",
+   "Publication date": "1-Jan-16",
+   "Intervention": "Child-focused",
+   "Outcomes": "East Asia,2014-2017,Preschooler",
+   "Link": "https://doi.org/10.1016/j.ecresq.2016.06.003"
+ },
+ {
+   "ID": 25,
+   "Author": "Hodgson, S., Papatheodorou, T., & James, M. (2014). [South Africa]",
+   "Title": "Monitoring and evaluation of an early childhood development programme: Implications for leadership and management",
+   "Publication date": "1-Jan-14",
+   "Intervention": "Child-focused",
+   "Outcomes": "Africa and the Middle East,2014-2017,Newborn,Infant,Toddler,Preschooler",
+   "Link": ""
+ },
+ {
+   "ID": 26,
+   "Author": "Jung, H., & Hasan, A. (2014). [Indonesia]",
+   "Title": "The Impact of Early Childhood Education on Early Achievement Gaps: Evidence from the Indonesia Early Childhood Education and Development (ECED) Project",
+   "Publication date": "1-Jan-14",
+   "Intervention": "Child-focused",
+   "Outcomes": "East Asia,2014-2017,Preschooler",
+   "Link": ""
+ },
+ {
+   "ID": 27,
+   "Author": "Lee-Hammond, L., & McConney, A. (2017). [Solomon Islands]",
+   "Title": "The impact of village-based kindergarten on early literacy, numeracy, and school attendance in Solomon Islands",
+   "Publication date": "1-Jan-16",
+   "Intervention": "Child-focused",
+   "Outcomes": "The Pacific,2014-2017,Preschooler",
+   "Link": "https://doi.org/10.1080/1350293X.2016.1155256"
+ },
+ {
+   "ID": 28,
+   "Author": "Angeles, G., Gadsden, P., Galiani, S., Gertler, P., Herrera, A., & Kariger, P. (2014). [Mexico]",
+   "Title": "The impact of day care on maternal labor supply and child development in Mexico ",
+   "Publication date": "1-Jan-14",
+   "Intervention": "Child-focused",
+   "Outcomes": "Latin America and the Caribbean,2014-2017,Newborn,Infant,Toddler,Preschooler",
+   "Link": ""
+ },
+ {
+   "ID": 29,
+   "Author": "Li, Y., Lv, Y., & Huntsinger, C. S. (2015). [China]",
+   "Title": "Does preschool education exposure predict children's academic and behavioural outcomes in China?",
+   "Publication date": "1-Jan-15",
+   "Intervention": "Child-focused",
+   "Outcomes": "East Asia,2014-2017,Toddler,Preschooler",
+   "Link": ""
+ },
+ {
+   "ID": 30,
+   "Author": "Malmberg, L. E., Mwaura, P., & Sylva, K. (2011). [Kenya; Zanzibar;Uganda]",
+   "Title": "Effects of a preschool intervention on cognitive development among East-African preschool children: A flexibly time-coded growth model",
+   "Publication date": "1-Jan-11",
+   "Intervention": "Quality",
+   "Outcomes": "Africa and the Middle East,2010-2013,Preschooler",
+   "Link": "https://doi.org/10.1016/j.ecresq.2010.04.003"
+ },
+ {
+   "ID": 31,
+   "Author": "Martinez, S., Naudeau, S., & Pereira, V. (2012). [Mozambique]",
+   "Title": "The Promise of Preschool in Africa: A Randomized Impact Evaluation of Early Childhood Development in Rural Mozambique",
+   "Publication date": "1-Jan-12",
+   "Intervention": "Child-focused",
+   "Outcomes": "Africa and the Middle East,2010-2013,Preschooler,Other",
+   "Link": ""
+ },
+ {
+   "ID": 32,
+   "Author": "McCoy, D. C., Peet, E. D., Ezzati, M., Danaei, G., Black, M. M., Sudfeld, C. R., . . . Fink, G. (2016). [Zambia]",
+   "Title": "Early Childhood Care and Education and School Readiness in Zambia",
+   "Publication date": "1-Jan-17",
+   "Intervention": "Child-focused",
+   "Outcomes": "Africa and the Middle East,2014-2017,Preschooler",
+   "Link": "https://doi.org/10.1371/journal.pmed.1002034"
+ },
+ {
+   "ID": 33,
+   "Author": "Mwaura, P. A., Sylva, K., & Malmberg, L.-E. (2008). [Kenya; Uganda; Tanzania/Zanzibar]",
+   "Title": "Evaluating the Madrasa preschool programme in East Africa: a quasi experimental study",
+   "Publication date": "1-Jan-08",
+   "Intervention": "Child-focused",
+   "Outcomes": "Africa and the Middle East,2006-2009,Preschooler",
+   "Link": ""
+ },
+ {
+   "ID": 34,
+   "Author": "Nakajima, N., Hasan, A., Jung, H., Brinkman, S., Pradhan, M., & Kinnell, A. (2016). [Indonesia]",
+   "Title": "Investing in School Readiness:  An Analysis of the Cost- Effectiveness of Early Childhood Education Pathways in Rural Indonesia",
+   "Publication date": "1-Jan-16",
+   "Intervention": "Child-focused",
+   "Outcomes": "East Asia,2014-2017,Other",
+   "Link": ""
+ },
+ {
+   "ID": 35,
+   "Author": "Nath, S. R. (2012). [Bangladesh]",
+   "Title": "The role of pre-school education on learning achievement at primary level in Bangladesh",
+   "Publication date": "1-Jan-12",
+   "Intervention": "Child-focused",
+   "Outcomes": "South and West Asia,2010-2013,Preschooler",
+   "Link": ""
+ },
+ {
+   "ID": 36,
+   "Author": "Rao, N., Sun, J., Zhou, J., & Zhang, L. (2012). [China]",
+   "Title": "Early achievement in rural China: The role of preschool experience ",
+   "Publication date": "1-Jan-12",
+   "Intervention": "Child-focused",
+   "Outcomes": "East Asia,2010-2013,Preschooler",
+   "Link": "https://doi.org/10.1016/j.ecresq.2011.07.001"
+ },
+ {
+   "ID": 37,
+   "Author": "Rao, N., Sun, J., Pearson, V., Pearson, E., Liu, H., Constas, M. A., & Engle, P. L. (2012). [Cambodia]",
+   "Title": "Is Something Better Than Nothing? An Evaluation of Early Childhood Programs in Cambodia",
+   "Publication date": "1-Jan-12",
+   "Intervention": "Child-focused",
+   "Outcomes": "East Asia,2010-2013,Preschooler",
+   "Link": "https://doi.org/10.1111/j.1467-8624.2012.01746.x"
+ },
+ {
+   "ID": 38,
+   "Author": "Save the Children. (2003). [Nepal]",
+   "Title": "What's the difference? An ECD impact study from Nepal.",
+   "Publication date": "1-Jan-03",
+   "Intervention": "Child-focused",
+   "Outcomes": "South and West Asia,1998-2005,Preschooler",
+   "Link": "https://www.unicef.org/evaldatabase/index_29686.html"
+ },
+ {
+   "ID": 39,
+   "Author": "Segretin, M. S., Lipina, S. J., Hermida, M. J., Sheffield, T. D., Nelson, J. M., Espy, K. A., & Colombo, J. A. (2014). [Argentina]",
+   "Title": "Predictors of cognitive enhancement after training in preschoolers from diverse socioeconomic backgrounds",
+   "Publication date": "1-Jan-14",
+   "Intervention": "Child-focused",
+   "Outcomes": "Latin America and the Caribbean,2014-2017,Preschooler",
+   "Link": "https://doi.org/10.3389/fpsyg.2014.00205"
+ },
+ {
+   "ID": 40,
+   "Author": "Taiwo, A. A., & Tyolo, J. B. (2002). [Botswana]",
+   "Title": "The effect of pre-school education on academic performance in primary school: a case study of grade one pupils in Botswana",
+   "Publication date": "1-Jan-02",
+   "Intervention": "Child-focused",
+   "Outcomes": "Africa and the Middle East,1998-2005,Newborn,Infant,Toddler,Preschooler",
+   "Link": ""
+ },
+ {
+   "ID": 41,
+   "Author": "Vaijayanti, K., & Subramanian, M. (2015). [India]",
+   "Title": "Educating the urban poor: a case study of running preschools in non-notified slums of India",
+   "Publication date": "1-Jan-15",
+   "Intervention": "Child-focused",
+   "Outcomes": "South and West Asia,2014-2017,Preschooler",
+   "Link": "https://doi.org/10.1080/09669760.2014.973837"
+ },
+ {
+   "ID": 42,
+   "Author": "Woldehanna, T. (2013). [Ethiopia]",
+   "Title": "The effects of early childhood education attendence on cognitive development: evidence from urban Ethiopia ",
+   "Publication date": "1-Jan-12",
+   "Intervention": "Child-focused",
+   "Outcomes": "Africa and the Middle East,2010-2013,Infant,Toddler,Preschooler",
+   "Link": ""
+ },
+ {
+   "ID": 43,
+   "Author": "Woldehanna, T. (2016). [Ethiopia]",
+   "Title": "Inequality, preschool education and cognitive development in Ethiopia: Implication for public investment in pre-primary education",
+   "Publication date": "1-Jan-16",
+   "Intervention": "Child-focused",
+   "Outcomes": "Africa and the Middle East,2014-2017,Toddler,Preschooler,Other",
+   "Link": "https://doi.org/10.1177/0165025415627700"
+ },
+ {
+   "ID": 44,
+   "Author": "Wong, H. L., Luo, R., Zhang, L., & Rozelle, S. (2013). [China]",
+   "Title": "The impact of vouchers on preschool attendance and elementary school readiness: A randomized controlled trial in rural China",
+   "Publication date": "1-Jan-13",
+   "Intervention": "Child-focused",
+   "Outcomes": "East Asia,2010-2013,Preschooler",
+   "Link": "https://doi.org/10.1016/j.econedurev.2013.03.004"
+ },
+ {
+   "ID": 45,
+   "Author": "Zuilkowski, S. S., Fink, G., Moucheraud, C., & Matafwali, B. (2012). [Zambia ]",
+   "Title": "Early Childhood Education, Child Development and School Readiness: Evidence from Zambia",
+   "Publication date": "1-Jan-12",
+   "Intervention": "Child-focused",
+   "Outcomes": "Africa and the Middle East,2010-2013,Preschooler",
+   "Link": ""
+ },
+ {
+   "ID": 46,
+   "Author": "Fernald, L. C., Gertler, P. J., & Neufeld, L. M. (2008). [Mexico]",
+   "Title": "Role of cash in conditional cash transfer programmes for child health, growth and development",
+   "Publication date": "1-Jan-08",
+   "Intervention": "Income supplementation",
+   "Outcomes": "Latin America and the Caribbean,2006-2009,Toddler,Preschooler",
+   "Link": ""
+ },
+ {
+   "ID": 47,
+   "Author": "Fernald, L. C., Gertler, P. J., & Neufeld, L. M. (2009). [Mexico]",
+   "Title": "10-year effect of Oportunidades, Mexico's conditional cash transfer programme, on child growth, cognition, langauge and behaviour",
+   "Publication date": "1-Jan-09",
+   "Intervention": "Income supplementation",
+   "Outcomes": "Latin America and the Caribbean,2006-2009,Other",
+   "Link": "https://doi.org/10.1016/S0140-6736(09)61676-7"
+ },
+ {
+   "ID": 48,
+   "Author": "Fernald, L. C. H., & Hidrobo, M. (2011). [Ecuador]",
+   "Title": "Effect of Ecuadors cash transfer program (Bono de Desarrollo Humano) on child development in infants and toddlers",
+   "Publication date": "1-Jan-11",
+   "Intervention": "Income supplementation",
+   "Outcomes": "Latin America and the Caribbean,2010-2013,Toddler",
+   "Link": "https://doi.org/10.1016/j.socscimed.2011.03.005"
+ },
+ {
+   "ID": 49,
+   "Author": "Figueroa, J. L. (2014). [Mexico]",
+   "Title": "Distributional effects of Oportuniades on early child development",
+   "Publication date": "1-Jan-14",
+   "Intervention": "Income supplementation",
+   "Outcomes": "Latin America and the Caribbean,2014-2017,Toddler,Preschooler",
+   "Link": ""
+ },
+ {
+   "ID": 50,
+   "Author": "Gertler, P. J., & Fernald, L. C. (2004). [Mexico]",
+   "Title": "The Medium Term Impact of Oportunidades on Child Development in Rural Areas",
+   "Publication date": "1-Jan-04",
+   "Intervention": "Income supplementation",
+   "Outcomes": "Latin America and the Caribbean,1998-2005,Toddler,Preschooler",
+   "Link": ""
+ },
+ {
+   "ID": 51,
+   "Author": "Macours, K., Schady, N., & Vakis, R. (2012). [Nicaragua]",
+   "Title": "Cash Transfers, Behavioral Changes, and the Cognitive Development of Young Children: Evidence from a Randomized Experiment",
+   "Publication date": "1-Jan-08",
+   "Intervention": "Income supplementation",
+   "Outcomes": "Latin America and the Caribbean,2006-2009,Newborn,Infant,Toddler,Preschooler,Other",
+   "Link": ""
+ },
+ {
+   "ID": 52,
+   "Author": "Paxson, C., & Schady, N. (2010). [Ecuador]",
+   "Title": "Does money matter? The effects of cash transfers on child development in rural Ecuador",
+   "Publication date": "1-Jan-10",
+   "Intervention": "Income supplementation",
+   "Outcomes": "Latin America and the Caribbean,2010-2013,Preschooler,Other",
+   "Link": "https://doi.org/10.1086/655458"
+ },
+ {
+   "ID": 53,
+   "Author": "Seidenfeld, D., Prencipe, L., Handa, S., & Hawkinson, L. (2015). [Zambia]",
+   "Title": "The Impact of an Unconditional Cash Transfer on Early Child Development: The Zambia Child Grant Program",
+   "Publication date": "1-Jan-15",
+   "Intervention": "Income supplementation",
+   "Outcomes": "Africa and the Middle East,2014-2017,Preschooler,Other",
+   "Link": ""
+ },
+ {
+   "ID": 54,
+   "Author": "Kotaman, H. (2013). [Turkey]",
+   "Title": "Impacts of dialogical storybook reading on young children's reading attitudes and vocabulary development",
+   "Publication date": "1-Jan-13",
+   "Intervention": "Parent-focused",
+   "Outcomes": "Africa and the Middle East,2010-2013,Preschooler",
+   "Link": ""
+ },
+ {
+   "ID": 55,
+   "Author": "Murray, L., Cooper, P., Arteche, A., Stein, A., & Tomlinson, M. (2016). [South Africa]",
+   "Title": "Randomized controlled trial of a home-visiting intervention on infant cognitive development in peri-urban South Africa",
+   "Publication date": "1-Jan-16",
+   "Intervention": "Parent-focused",
+   "Outcomes": "Africa and the Middle East,2014-2017,Prenatal,Newborn,Infant",
+   "Link": ""
+ },
+ {
+   "ID": 56,
+   "Author": "Nair, M. K., Philip, E., Jeyaseelan, L., George, B., Mathews, S., & Padma, K. (2009). [India]",
+   "Title": "Effect of Child Development Centre Model Early Stimulation Among At-risk Babies - A Randomized Controlled Trial",
+   "Publication date": "1-Jan-09",
+   "Intervention": "Parent-focused",
+   "Outcomes": "South and West Asia,2006-2009,Newborn,Infant,Toddler",
+   "Link": ""
+ },
+ {
+   "ID": 57,
+   "Author": "Powell, C., Baker-Henningham, H., Walker, S., Gernay, J., & Grantham-McGregor, S. (2004). [Jamaica]",
+   "Title": "Feasibility of integrating early stimulation into primary care for undernourished Jamaican children: cluster randomised controlled trial",
+   "Publication date": "1-Jan-04",
+   "Intervention": "Parent-focused",
+   "Outcomes": "Latin America and the Caribbean,1998-2005,Infant,Toddler",
+   "Link": ""
+ },
+ {
+   "ID": 58,
+   "Author": "Rempel, L. A., Rempel, J. K., Khuc, T. N., & Vui, L. T. (2017). [Vietnam]",
+   "Title": "Influence of Father-Infant Relationship on Infant Development: A Father-Involvement Intervention in Vietnam",
+   "Publication date": "1-Jan-17",
+   "Intervention": "Parent-focused",
+   "Outcomes": "East Asia,2014-2017,Prenatal,Newborn,Infant",
+   "Link": "https://doi.org/10.1037/dev0000390"
+ },
+ {
+   "ID": 59,
+   "Author": "Singla, D. R., Kumbakumba, E., & Aboud, F. E. (2015). [Uganda]",
+   "Title": "Effects of a parenting intervention to address maternal psychological wellbeing and child development and growth in rural Uganda: a community-based, cluster-randomised trial",
+   "Publication date": "1-Jan-15",
+   "Intervention": "Parent-focused",
+   "Outcomes": "Africa and the Middle East,2014-2017,Toddler",
+   "Link": "https://doi.org/10.1016/S2214-109X(15)00099-6"
+ },
+ {
+   "ID": 60,
+   "Author": "Tessier, R., Charpak, N., Giron, M., Cristo, M., De Calume, Z. F., & Ruiz-Pelaez, J. G. (2009). [Colombia]",
+   "Title": "Kangaroo Mother Care, home environment and father involvement in the first year of life: a randomized controlled study",
+   "Publication date": "1-Jan-09",
+   "Intervention": "Parent-focused",
+   "Outcomes": "Latin America and the Caribbean,2006-2009,Newborn,Infant",
+   "Link": "https://doi.org/10.1111/j.1651-2227.2009.01370.x"
+ },
+ {
+   "ID": 61,
+   "Author": "Vazir, S., Engle, P., Nagalla, B., Griffiths, P. L., Johnson, S. L., Creed-Kanashiro, H., . . . Bentley, M. E. (2013). [India]",
+   "Title": "Cluster-randomized trial on complementary and responsive feeding education to caregivers found improved dietary intake, growth and development among rural Indian toddlers",
+   "Publication date": "1-Jan-13",
+   "Intervention": "Parent-focused",
+   "Outcomes": "South and West Asia,2010-2013,Infant",
+   "Link": ""
+ },
+ {
+   "ID": 62,
+   "Author": "Walker, S. P., Chang, S. M., Powell, C. A., & Grantham-McGregor, S. M. (2004). [Jamaica]",
+   "Title": "Psychosocial intervention improves the development of term low-birth-weight infants",
+   "Publication date": "1-Jan-03",
+   "Intervention": "Parent-focused",
+   "Outcomes": "Latin America and the Caribbean,1998-2005,Newborn,Infant,Toddler",
+   "Link": ""
+ },
+ {
+   "ID": 63,
+   "Author": "Walker, S. P., Chang, S. M., Powell, C. A., & Grantham-McGregor, S. M. (2005). [Jamaica]",
+   "Title": "Effects of early childhood psychosocial stimulation and nutritional supplementation on cognition and education in growth-retarded Jamaican children: prospective cohort study",
+   "Publication date": "1-Jan-05",
+   "Intervention": "Parent-focused",
+   "Outcomes": "Latin America and the Caribbean,1998-2005,Infant,Toddler",
+   "Link": "https://doi.org/10.1016/S0140-6736(05)67574-5"
+ },
+ {
+   "ID": 64,
+   "Author": "Walker, S. P., Chang, S. M., Younger, N., & GRANTHAM-MCGREGOR, S. M. (2010). [Jamaica]",
+   "Title": "The effect of psychosocial stimulation on cognition and behaviour at 6 years in a cohort of term, low-birthweight Jamaican children",
+   "Publication date": "1-Jan-10",
+   "Intervention": "Parent-focused",
+   "Outcomes": "Latin America and the Caribbean,2010-2013,Newborn,Infant,Toddler",
+   "Link": ""
+ },
+ {
+   "ID": 65,
+   "Author": "Walker, S. P., Grantham-McGregor, S. M., Powell, C. A., & Chang, S. M. (2000). [Jamaica]",
+   "Title": "Effects of growth restriction in early childhood on growth, IQ and cognition at age 11 and 12 years and the benefits of nutritional supplementation and psychosocial stimulation",
+   "Publication date": "1-Jan-00",
+   "Intervention": "Parent-focused",
+   "Outcomes": "Latin America and the Caribbean,1998-2005,Infant,Toddler",
+   "Link": "https://doi.org/10.1067/mpd.2000.106227"
+ },
+ {
+   "ID": 66,
+   "Author": "Wallander, J. L., Bann, C. M., Biasini, F. J., Goudar, S. S., Pasha, O., Chomba, E., . . . Carlo, W. A. (2014). [India; Pakistan; Zambia]",
+   "Title": "Development of children at risk for adverse outcomes participating in early intervention in developing countries: a randomized controlled trial",
+   "Publication date": "1-Jan-14",
+   "Intervention": "Parent-focused",
+   "Outcomes": "South and West Asia,Africa and the Middle East,2014-2017,Newborn,Infant,Toddler",
+   "Link": "https://doi.org/10.1111/jcpp.12247"
+ },
+ {
+   "ID": 67,
+   "Author": "Wallander, J. L., Biasini, F. J., Thorsten, V., Dhaded, S. M., de Jong, D. M., Chomba, E., . . . Carlo, W. A. (2014). [India; Pakistan; Zambia]",
+   "Title": "Dose of early intervention treatment during children's first 36 months of life is associated with devleopmental outcomes",
+   "Publication date": "1-Jan-14",
+   "Intervention": "Parent-focused",
+   "Outcomes": "South and West Asia,Africa and the Middle East,2014-2017,Newborn,Infant,Toddler",
+   "Link": "https://doi.org/10.1186/1471-2431-14-281"
+ },
+ {
+   "ID": 68,
+   "Author": "Weber, A., Fernald, A., & Diop, Y. (2017). [Senegal]",
+   "Title": "When cultural norms discourage talking to babies: effectiveness of a parenting program in rural Senegal",
+   "Publication date": "1-Jan-17",
+   "Intervention": "Parent-focused",
+   "Outcomes": "Africa and the Middle East,2014-2017,Infant,Toddler",
+   "Link": "https://doi.org/10.1111/cdev.12882"
+ },
+ {
+   "ID": 69,
+   "Author": "Yousafzai, A. K. (2014). [Pakistan]",
+   "Title": "Effect of integrated responsive stimulation and nutrition interventions in the Lady Health Worker programme in Pakistan on child development, growth, and health outcomes: a cluster-randomised factorial effectiveness trial",
+   "Publication date": "1-Jan-14",
+   "Intervention": "Parent-focused",
+   "Outcomes": "South and West Asia,2014-2017,Infant,Toddler",
+   "Link": "https://doi.org/10.1016/S0140-6736(14)60455-4"
+ },
+ {
+   "ID": 70,
+   "Author": "Zhang, Y., Xu, X., Jiang, F., Gilkerson, J., Xu, D., Richards, J. A., . . . Topping, K. J. (2015). [China]",
+   "Title": "Effects of quantitative linguistic feedback to caregivers of young children: a pilot study in China",
+   "Publication date": "1-Jan-15",
+   "Intervention": "Parent-focused",
+   "Outcomes": "East Asia,2014-2017,Infant,Toddler",
+   "Link": ""
+ },
+ {
+   "ID": 71,
+   "Author": "Zembat, R., & Kuday, F. S. (2010). [Turkey]",
+   "Title": "A comparison of the cognitive development of 3-6 year-old children who receive family-supported preschool education, institutional education and no education",
+   "Publication date": "1-Jan-10",
+   "Intervention": "Parent-focused",
+   "Outcomes": "Africa and the Middle East,2010-2013,Preschooler",
+   "Link": ""
+ },
+ {
+   "ID": 72,
+   "Author": "Jin, X., Sun, Y., Jiang, F., Ma, J., Morgan, C., & Shen, X. (2007). [China]",
+   "Title": "Care for Development Intervention in Rural China: A Prospective Follow-up Study",
+   "Publication date": "1-Jan-07",
+   "Intervention": "Parent-focused",
+   "Outcomes": "East Asia,2006-2009,Newborn,Infant,Toddler",
+   "Link": "https://doi.org/10.1097/dbp.0b013e31802d410b"
+ },
+ {
+   "ID": 73,
+   "Author": "Klein, P. S., & Rye, H. (2004). [Ethiopia]",
+   "Title": "Interaction-oriented Early Intervention in Ethiopia: The MISC Approach",
+   "Publication date": "1-Jan-04",
+   "Intervention": "Parent-focused",
+   "Outcomes": "Africa and the Middle East,1998-2005,Toddler",
+   "Link": ""
+ },
+ {
+   "ID": 74,
+   "Author": "Knauer, H. A., Kagawa, R. M. C., Garcia-Guerra, A., Schnaas, L., Neufeld, L. M., & Fernald, L. C. H. (2016). [Mexico]",
+   "Title": "Pathways to improved development for children living in poverty: A randomized effectiveness trial in rural Mexico",
+   "Publication date": "1-Jan-16",
+   "Intervention": "Parent-focused",
+   "Outcomes": "Latin America and the Caribbean,2014-2017,Newborn,Infant,Toddler",
+   "Link": "https://doi.org/10.1177/0165025416652248"
+ },
+ {
+   "ID": 75,
+   "Author": "Aboud, F. E. (2007). [Bangladesh]",
+   "Title": "Evaluation of an Early Childhood Parenting Programme in Rural Bangladesh",
+   "Publication date": "1-Jan-07",
+   "Intervention": "Parent-focused",
+   "Outcomes": "South and West Asia,2006-2009,Toddler,Preschooler",
+   "Link": ""
+ },
+ {
+   "ID": 76,
+   "Author": "Aboud, F. E., Singla, D. R., Nahil, M. I., & Borisova, I. (2013). [Bangladesh]",
+   "Title": "Effectiveness of a parenting program in Bangladesh to address early childhood health, growth and development",
+   "Publication date": "1-Jan-13",
+   "Intervention": "Parent-focused",
+   "Outcomes": "South and West Asia,2010-2013,Infant,Toddler",
+   "Link": "https://doi.org/10.1016/j.socscimed.2013.06.020"
+ },
+ {
+   "ID": 77,
+   "Author": "Aboud, F. E., & Akhter, S. (2011). [Bangladesh]",
+   "Title": "A Cluster-Randomized Evaluation of a Responsive Stimulation and Feeding Intervention in Bangladesh",
+   "Publication date": "1-Jan-11",
+   "Intervention": "Parent-focused",
+   "Outcomes": "South and West Asia,2010-2013,Infant,Toddler",
+   "Link": "https://doi.org/10.1542/peds.2010-2160"
+ },
+ {
+   "ID": 78,
+   "Author": "Altinkaynak, S. O., & Akman, B. (2016). [Turkey]",
+   "Title": "The Effects of Family-Based Literacy Preparation Program on Childrens Literacy Preparation Skills",
+   "Publication date": "1-Jan-16",
+   "Intervention": "Parent-focused",
+   "Outcomes": "Africa and the Middle East,2014-2017,Preschooler",
+   "Link": ""
+ },
+ {
+   "ID": 79,
+   "Author": "Attanasio, O. P., Fernandez, C., Fitzsimons, E. O., Grantham-McGregor, S. M., Meghir, C., & Rubio-Codina, M. (2014). [Colombia]",
+   "Title": "Using the infrastructure of a conditional cash transfer program to deliver a scalable integrated early child development program in Colombia: cluster randomized controlled trial",
+   "Publication date": "1-Jan-14",
+   "Intervention": "Parent-focused",
+   "Outcomes": "Latin America and the Caribbean,2014-2017,Toddler",
+   "Link": "https://doi.org/10.1136/bmj.g5785"
+ },
+ {
+   "ID": 80,
+   "Author": "Bann, C. M., Wallander, J. L., Do, B., Thorsten, V., Pasha, O., Biasini, F. J., . . . Carlo, W. A. (2016). [India; Pakistan; Zambia]",
+   "Title": "Home-Based Early Intervention and the Influence of Family Resources on Cognitive Development",
+   "Publication date": "1-Jan-16",
+   "Intervention": "Parent-focused",
+   "Outcomes": "South and West Asia,Africa and the Middle East,2014-2017,Newborn,Infant,Toddler",
+   "Link": ""
+ },
+ {
+   "ID": 81,
+   "Author": "Bekman, S. (1998). [Turkey]",
+   "Title": "A Fair Chance: An Evaluation of the Mother-Child Education Program",
+   "Publication date": "1-Jan-98",
+   "Intervention": "Parent-focused",
+   "Outcomes": "Africa and the Middle East,1998-2005,Preschooler",
+   "Link": ""
+ },
+ {
+   "ID": 82,
+   "Author": "Cardenas, S., Evans, D. K., & Holland, P. (2015). [Mexico]",
+   "Title": "Early Childhood Benefits at Low Cost - Evidence from a Randomized Trail in Mexico",
+   "Publication date": "1-Jan-15",
+   "Intervention": "Parent-focused",
+   "Outcomes": "Latin America and the Caribbean,2014-2017,Newborn,Infant,Toddler,Preschooler",
+   "Link": ""
+ },
+ {
+   "ID": 83,
+   "Author": "Chang, S. M., Grantham-McGregor, S. M., Powell, C. A., Vera-Hernandez, M., Lopez-Boo, F., Baker-Henningham, H., & Walker, S. P. (2015). [Jamaica; Antigua; St Lucia]",
+   "Title": "Integrating a Parenting Intervention With Routine Primary Health Care: A Cluster Randomized Trial",
+   "Publication date": "1-Jan-15",
+   "Intervention": "Parent-focused",
+   "Outcomes": "Latin America and the Caribbean,2014-2017,Infant,Toddler",
+   "Link": "https://doi.org/10.1542/peds.2015-0119"
+ },
+ {
+   "ID": 84,
+   "Author": "Charpak, N., Tessier, R., Ruiz, J. G., Hernandez, J. T., Uriza, F., Villegas, J., . . . Maldonado, D. (2017). [Colombia]",
+   "Title": "Twenty-year Follow-up of Kangaroo Mother Care Versus Traditional Care",
+   "Publication date": "1-Jan-17",
+   "Intervention": "Parent-focused",
+   "Outcomes": "Latin America and the Caribbean,2014-2017,Newborn,Infant",
+   "Link": "https://doi.org/10.1542/peds.2016-2063"
+ },
+ {
+   "ID": 85,
+   "Author": "Cooper, P. J., Vally, Z., Cooper, H., Radford, T., Sharples, A., Tomlinson, M., & Murray, L. (2014). [South Africa]",
+   "Title": "Promoting Mother-Infant Book Sharing and Infant Attention and Language Development in an Impoverished South African Population: A Pilot Study",
+   "Publication date": "1-Jan-13",
+   "Intervention": "Parent-focused",
+   "Outcomes": "Africa and the Middle East,2010-2013,Toddler",
+   "Link": ""
+ },
+ {
+   "ID": 86,
+   "Author": "Eickmann, S. H., Lima, A. C. V., Guerra, M. Q., Lima, M. C., Lira, P. I. C., Huttly, S. R. A., & Ashworth, A. (2003). [Brazil]",
+   "Title": "Improved cognitive and motor development in a community-based intervention of psychosocial stimulation in northeast Brazil",
+   "Publication date": "1-Jan-03",
+   "Intervention": "Parent-focused",
+   "Outcomes": "Latin America and the Caribbean,1998-2005,Toddler",
+   "Link": ""
+ },
+ {
+   "ID": 87,
+   "Author": "Gardner, J. M. M., Powell, C. A., Baker-Henningham, H., Walker, S. P., Cole, T. J., & Grantham-McGregor, S. M. (2005). [Jamaica]",
+   "Title": "Zinc supplementation and psychosocial stimulation: effects on the development of undernourished Jamaican children",
+   "Publication date": "1-Jan-05",
+   "Intervention": "Parent-focused",
+   "Outcomes": "Latin America and the Caribbean,1998-2005,Infant,Toddler",
+   "Link": ""
+ },
+ {
+   "ID": 88,
+   "Author": "Gardner, J. M., Walker, S. P., Powell, C. A., & Grantham-McGregor, S. (2003). [Jamaica]",
+   "Title": "A randomized controlled trial of a home-visiting intervention on cognition and behavior in term low birth weight infants",
+   "Publication date": "1-Jan-03",
+   "Intervention": "Parent-focused",
+   "Outcomes": "Latin America and the Caribbean,1998-2005,Newborn,Infant",
+   "Link": "https://doi.org/10.1067/S0022-3476(03)00455-4"
+ },
+ {
+   "ID": 89,
+   "Author": "Gowani, S., Yousafzai, A. K., Armstrong, R., & Bhutta, Z. A. (2014). [Pakistan]",
+   "Title": "Cost effectiveness of responsive stimulation and nutrition interventions on early child development outcomes in Pakistan",
+   "Publication date": "1-Jan-14",
+   "Intervention": "Parent-focused",
+   "Outcomes": "South and West Asia,2014-2017,Newborn,Infant,Toddler",
+   "Link": ""
+ },
+ {
+   "ID": 90,
+   "Author": "Hamadani, J. D., Huda, S. N., Khatun, F., & Grantham-McGregor, S. M. (2006). [Bangladesh]",
+   "Title": "Psychosocial Stimulation Improves the Development of Undernourished Children in Rural Bangladesh",
+   "Publication date": "1-Jan-06",
+   "Intervention": "Parent-focused",
+   "Outcomes": "South and West Asia,2006-2009,Infant,Toddler",
+   "Link": ""
+ },
+ {
+   "ID": 91,
+   "Author": "Aboud, F. E. (2006). [Bangladesh]",
+   "Title": "Evaluation of an early childhood preschool program in rural Bangladesh",
+   "Publication date": "1-Jan-06",
+   "Intervention": "Quality",
+   "Outcomes": "South and West Asia,2006-2009,Preschooler",
+   "Link": "https://doi.org/10.1016/j.ecresq.2006.01.008"
+ },
+ {
+   "ID": 92,
+   "Author": "Aboud, F. E., Proulx, K., & Asrilla, Z. (2016). [Indonesia]",
+   "Title": "An impact evaluation of Plan Indonesias early childhood program",
+   "Publication date": "1-Jan-16",
+   "Intervention": "Quality",
+   "Outcomes": "East Asia,2014-2017,Preschooler,Other",
+   "Link": "https://doi.org/10.17269/CJPH.107.5557"
+ },
+ {
+   "ID": 93,
+   "Author": "Ade, A., Gupta, S., Maliye, C., Deshmukh, P., & Garg, B. (2010). [India]",
+   "Title": "Effect of improvement of pre-school education through Anganwadi centre on intelligence and devleopment quotient of children",
+   "Publication date": "1-Jan-10",
+   "Intervention": "Quality",
+   "Outcomes": "South and West Asia,2010-2013,Preschooler",
+   "Link": ""
+ },
+ {
+   "ID": 94,
+   "Author": "Arbour, M., Yoshikawa, H., Willett, J., Weiland, C., Snow, C., Mendive, S., . . . Trevino, E. (2016). [Chile]",
+   "Title": "Experimental Impacts of a Preschool Intervention in Chile on Childrens Language Outcomes: Moderation by Student Absenteeism",
+   "Publication date": "1-Jan-16",
+   "Intervention": "Quality",
+   "Outcomes": "Latin America and the Caribbean,2014-2017,Preschooler",
+   "Link": ""
+ },
+ {
+   "ID": 95,
+   "Author": "Arbour, M., Yoshikawa, H., Atwood, S., Duran Mellado, F. R., Godoy Ossa, F., Trevino Villareal, E., & Snow, C. E. (2016). [Chile]",
+   "Title": "Improving quality and child outcomes in early childhood education by redefining the role afforded to teachers in professional development",
+   "Publication date": "1-Jan-16",
+   "Intervention": "Quality",
+   "Outcomes": "Latin America and the Caribbean,2014-2017,Preschooler",
+   "Link": ""
+ },
+ {
+   "ID": 96,
+   "Author": "Bernal, R. (2015). [Colombia]",
+   "Title": "The impact of vocational education program for childcare providers on childrens well-being",
+   "Publication date": "1-Jan-15",
+   "Intervention": "Quality",
+   "Outcomes": "Latin America and the Caribbean,2014-2017,Newborn,Infant,Toddler,Preschooler",
+   "Link": "https://doi.org/10.1016/j.econedurev.2015.07.003"
+ },
+ {
+   "ID": 97,
+   "Author": "Brinkman, S. A., Hasan, A., Jung, H., Kinnell, A., Nakajima, N., & Pradhan, M. (2016). [Indonesia]",
+   "Title": "The role of preschool quality in promoting child development: evidence from rural Indonesia",
+   "Publication date": "1-Jan-17",
+   "Intervention": "Quality",
+   "Outcomes": "East Asia,2014-2017,Preschooler",
+   "Link": ""
+ },
+ {
+   "ID": 98,
+   "Author": "Diazgranados, S., Borisova, I., & Sarker, T. (2016). [Bangladesh]",
+   "Title": "Does attending an enhanced-quality preschool have an effect on the emergent literacy, emergent math, social skills and knowledge of health, hygiene, nutrition and safety of young children?",
+   "Publication date": "1-Jan-16",
+   "Intervention": "Quality",
+   "Outcomes": "South and West Asia,2014-2017,Preschooler",
+   "Link": "https://doi.org/10.1080/19452829.2016.1225704"
+ },
+ {
+   "ID": 99,
+   "Author": "Dowd, A. J., Borisova, I., Amente, A., & Yenew, A. (2016). [Ethiopia]",
+   "Title": "Realizing capabilities in Ethiopia: Maximizing Early Childhood Investment for Impact and Equity",
+   "Publication date": "1-Jan-16",
+   "Intervention": "Quality",
+   "Outcomes": "Africa and the Middle East,2014-2017,Preschooler",
+   "Link": "https://doi.org/10.1080/19452829.2016.1225702"
+ },
+ {
+   "ID": 100,
+   "Author": "Herrera, M. O., Mathiesen, M. E., Merino, J. M., & Recart, I. (2005). [Chile]",
+   "Title": "Learning contexts for young children in Chile: process quality assessment in preschool centres",
+   "Publication date": "1-Jan-05",
+   "Intervention": "Quality",
+   "Outcomes": "Latin America and the Caribbean,1998-2005,Newborn,Infant,Toddler",
+   "Link": ""
+ },
+ {
+   "ID": 101,
+   "Author": "Leyva, D., Yoshikawa, H., Snow, C. E., Trevino, E., Rolla, A., Barata, C. M., & Weiland, C. (2014). [Chile]",
+   "Title": "Can we improve preschool classroom quality in Chile? A cluster-randomized evaluation of a professional development program",
+   "Publication date": "1-Jan-14",
+   "Intervention": "Quality",
+   "Outcomes": "Latin America and the Caribbean,2014-2017,Preschooler",
+   "Link": ""
+ },
+ {
+   "ID": 102,
+   "Author": "Li, K., Pan, Y., Hu, B., Burchinal, M., De Marco, A., Fan, X., & Qin, J. (2016). [China]",
+   "Title": "Early childhood education quality and child outcomes in China",
+   "Publication date": "1-Jan-16",
+   "Intervention": "Quality",
+   "Outcomes": "East Asia,2014-2017,Preschooler",
+   "Link": "https://doi.org/10.1016/j.ecresq.2016.01.009"
+ },
+ {
+   "ID": 103,
+   "Author": "Mendive, S., Weiland, C., Yoshikawa, H., & Snow, C. (2016). [Chile]",
+   "Title": "Opening the Black Box: Intervention fidelity in a randomized trial of a preschool teacher professional development program",
+   "Publication date": "1-Jan-15",
+   "Intervention": "Quality",
+   "Outcomes": "Latin America and the Caribbean,2014-2017,Preschooler",
+   "Link": ""
+ },
+ {
+   "ID": 104,
+   "Author": "Moore, A. C., Akhter, S., & Aboud, F. E. (2008). [Bangladesh]",
+   "Title": "Evaluating an improved quality preschool program in rural Bangladesh",
+   "Publication date": "1-Jan-08",
+   "Intervention": "Quality",
+   "Outcomes": "South and West Asia,2006-2009,Preschooler,Other",
+   "Link": ""
+ },
+ {
+   "ID": 105,
+   "Author": "MS Swaminathan Foundation. (2000). [India]",
+   "Title": "Understanding the relationship between quality of early childhood education and learning competencies of children",
+   "Publication date": "1-Jan-00",
+   "Intervention": "Quality",
+   "Outcomes": "South and West Asia,1998-2005,Preschooler",
+   "Link": ""
+ },
+ {
+   "ID": 106,
+   "Author": "Rao, N. (2010). [India]",
+   "Title": "Preschool quality and the development of children from economically disadvantaged families in India",
+   "Publication date": "1-Jan-10",
+   "Intervention": "Quality",
+   "Outcomes": "South and West Asia,2010-2013,Preschooler",
+   "Link": ""
+ },
+ {
+   "ID": 107,
+   "Author": "Rolla San Francisco, A., Arias, M., & Villers, R. (2005). [Costa Rica]",
+   "Title": "Quality early childhood education in Costa Rica? Policy, practice, outcomes and challenges",
+   "Publication date": "1-Jan-05",
+   "Intervention": "Quality",
+   "Outcomes": "Latin America and the Caribbean,1998-2005,Preschooler",
+   "Link": ""
+ },
+ {
+   "ID": 108,
+   "Author": "Yoshikawa, H., Leyva, D., Snow, C. E., Trevino, E., Barata, C. M., Weiland, C., . . . Arbour, M. C. (2015). [Chile]",
+   "Title": "Experimental impacts of a teacher professional development program in Chile on preschool classroom quality and child outcomes",
+   "Publication date": "1-Jan-15",
+   "Intervention": "Quality",
+   "Outcomes": "Latin America and the Caribbean,2014-2017,Preschooler",
+   "Link": ""
+ },
+ {
+   "ID": 109,
+   "Author": "Bekman, S. (2002). [Turkey]",
+   "Title": "Does daycare centre experience and its aim matter?",
+   "Publication date": "1-Jan-02",
+   "Intervention": "Quality",
+   "Outcomes": "Africa and the Middle East,1998-2005,Preschooler",
+   "Link": ""
+ }
+]
+}
