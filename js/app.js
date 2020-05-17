@@ -5,16 +5,16 @@ xhttp.onreadystatechange = function() {
       //  document.getElementById("demo").innerHTML = xhttp.responseText;
       var response = JSON.parse(xhttp.responseText);
       console.log(response.data);
-      var data = response.data;
+      data = response.data;
 
       var output = '';
       // for(var i = 0; i < data.length; i++){
-      for(var i = 0; i < 20; i++){
+      for(var i = 0; i < 1; i++){
         // output += '<p>' + data[i].Author+ "\r"+ data[i].Link+ "\r" + '</p>';
         if(data[i].Link != "")
-          output += "<a target=_blank" + ' href=' + data[i].Link + '>' + data[i].Author +'</a>' + '\n';
+          output += "<a target=_blank" + ' href=' + data[i].Link + '>' + data[i].Author +'</a>' + '<br>';
           else 
-          output += data[i].Author + '\n';
+          output += data[i].Author + '<br>';
 
       }
       tippy('#income_africa', {
