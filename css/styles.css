@@ -1,7 +1,8 @@
 .grid > div{
     background: rgb(101, 177, 248);
     padding: 1rem;
-    border-radius: 1rem;
+    border-radius: 11px;
+ 
 }
 
 /* .grid > div:nth-child(odd){
@@ -53,6 +54,6 @@ body{
 .tippy-box {
     background-color:rgb(255, 255, 255);
     color:rgb(0, 0, 0);
-    border-style: solid;
+    box-shadow: 0 0 20px 5px rgba(50, 50, 50, 0.25);
     
 }
