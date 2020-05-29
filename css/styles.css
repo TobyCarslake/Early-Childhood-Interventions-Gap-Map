@@ -2,9 +2,12 @@
     background: rgb(101, 177, 248);
     padding: 1rem;
     border-radius: 11px;
+    /*grid shadow from here https://themesberg.com/blog/tutorial/neomorphic-elements-css-html-tutorial */
+    -webkit-box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
+    box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
  
 }
-
+/* https://neumorphism.io/#E6E7EE */
 /* .grid > div:nth-child(odd){
     background: rgb(113, 113, 216);
 } */
