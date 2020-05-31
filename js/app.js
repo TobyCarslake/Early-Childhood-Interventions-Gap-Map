@@ -88,3 +88,107 @@ tippy('#parent', {
   placement: 'auto-end',
   interactive: true
 });
+tippy('#child', {
+  maxWidth: '',
+  trigger: 'click',
+  hideOnClick: 'false',
+  content: 'This category includes all studies in which the intervention involved the provision of support for learning directly to the child.',
+  allowHTML: true,
+  appendTo: document.body,
+  boundary: 'window',
+  placement: 'auto',
+  placement: 'auto-start',
+  placement: 'auto-end',
+  interactive: true
+});
+tippy('#integrated', {
+  maxWidth: '',
+  trigger: 'click',
+  hideOnClick: 'false',
+  content: 'This category includes studies of interventions that combine multiple services or supports, including across health and education.',
+  allowHTML: true,
+  appendTo: document.body,
+  boundary: 'window',
+  placement: 'auto',
+  placement: 'auto-start',
+  placement: 'auto-end',
+  interactive: true
+});
+tippy('#quality', {
+  maxWidth: '',
+  trigger: 'click',
+  hideOnClick: 'false',
+  content: 'This category includes any studies of interventions which sought to improve the quality of an existing intervention. ',
+  allowHTML: true,
+  appendTo: document.body,
+  boundary: 'window',
+  placement: 'auto',
+  placement: 'auto-start',
+  placement: 'auto-end',
+  interactive: true
+});
+tippy('#comparative', {
+  maxWidth: '',
+  trigger: 'click',
+  hideOnClick: 'false',
+  content: 'This small group of studies compared the effects of interventions in one or more categories.',
+  allowHTML: true,
+  appendTo: document.body,
+  boundary: 'window',
+  placement: 'auto',
+  placement: 'auto-start',
+  placement: 'auto-end',
+  interactive: true
+});
+tippy('#newborn', {
+  maxWidth: '',
+  trigger: 'click',
+  hideOnClick: 'false',
+  content: 'Newborn - 0-4 weeks of age',
+  allowHTML: true,
+  appendTo: document.body,
+  boundary: 'window',
+  placement: 'auto',
+  placement: 'auto-start',
+  placement: 'auto-end',
+  interactive: true
+});
+tippy('#infant', {
+  maxWidth: '',
+  trigger: 'click',
+  hideOnClick: 'false',
+  content: 'Infant - 5 weeks - 12 months (i.e. up to 12 months of age)',
+  allowHTML: true,
+  appendTo: document.body,
+  boundary: 'window',
+  placement: 'auto',
+  placement: 'auto-start',
+  placement: 'auto-end',
+  interactive: true
+});
+tippy('#toddler', {
+  maxWidth: '',
+  trigger: 'click',
+  hideOnClick: 'false',
+  content: 'Toddler - 1–3 years (over 12 months and upto 3 years)',
+  allowHTML: true,
+  appendTo: document.body,
+  boundary: 'window',
+  placement: 'auto',
+  placement: 'auto-start',
+  placement: 'auto-end',
+  interactive: true
+});
+tippy('#preschooler', {
+  maxWidth: '',
+  trigger: 'click',
+  hideOnClick: 'false',
+  content: 'Preschooler - 3-6 years  (over 3 years and upto 6 years)',
+  allowHTML: true,
+  appendTo: document.body,
+  boundary: 'window',
+  placement: 'auto',
+  placement: 'auto-start',
+  placement: 'auto-end',
+  interactive: true
+});
