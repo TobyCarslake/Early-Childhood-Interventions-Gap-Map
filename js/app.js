@@ -7,7 +7,7 @@ xhttp.onreadystatechange = function() {
       //  document.getElementById("demo").innerHTML = xhttp.responseText;
       const response = JSON.parse(xhttp.responseText);
       console.log(response.data);
-      var data = response.data;
+      const data = response.data;
 //income variables
       let incAfr = data.filter(it => it.Intervention.includes('Income') && it.Outcomes.includes('Africa'));
       document.getElementById("income_africa").innerHTML = incAfr.length;
@@ -283,15 +283,10 @@ document.getElementById("comparative_other").innerHTML = compOth.length;
       }
       tippy('#income_africa', {
         maxWidth: '9',
-        trigger: 'mouseenter focus',
-        hideOnClick: 'false',
         content: incomeAfrica,
         allowHTML: true,
-        appendTo: document.body,
         boundary: 'window',
         placement: 'auto',
-        placement: 'auto-start',
-        placement: 'auto-end',
         interactive: true
       });
 
@@ -306,15 +301,10 @@ document.getElementById("comparative_other").innerHTML = compOth.length;
       }
       tippy('#income_latin', {
         maxWidth: '9',
-        trigger: 'mouseenter focus',
-        hideOnClick: 'false',
         content: incomeLatin,
         allowHTML: true,
-        appendTo: document.body,
         boundary: 'window',
         placement: 'auto',
-        placement: 'auto-start',
-        placement: 'auto-end',
         interactive: true
       });
 
@@ -329,15 +319,10 @@ document.getElementById("comparative_other").innerHTML = compOth.length;
       }
       tippy('#income_1998', {
         maxWidth: '9',
-        trigger: 'mouseenter focus',
-        hideOnClick: 'false',
         content: income1998,
         allowHTML: true,
-        appendTo: document.body,
         boundary: 'window',
         placement: 'auto',
-        placement: 'auto-start',
-        placement: 'auto-end',
         interactive: true
       });
 
@@ -353,15 +338,10 @@ document.getElementById("comparative_other").innerHTML = compOth.length;
       }
       tippy('#income_2006', {
         maxWidth: '9',
-        trigger: 'mouseenter focus',
-        hideOnClick: 'false',
         content: income2006,
         allowHTML: true,
-        appendTo: document.body,
         boundary: 'window',
         placement: 'auto',
-        placement: 'auto-start',
-        placement: 'auto-end',
         interactive: true
       });
 
@@ -378,15 +358,10 @@ document.getElementById("comparative_other").innerHTML = compOth.length;
       }
       tippy('#income_2010', {
         maxWidth: '9',
-        trigger: 'mouseenter focus',
-        hideOnClick: 'false',
         content: income2010,
         allowHTML: true,
-        appendTo: document.body,
         boundary: 'window',
         placement: 'auto',
-        placement: 'auto-start',
-        placement: 'auto-end',
         interactive: true
       });
       
@@ -402,15 +377,10 @@ document.getElementById("comparative_other").innerHTML = compOth.length;
       }
       tippy('#income_2014', {
         maxWidth: '9',
-        trigger: 'mouseenter focus',
-        hideOnClick: 'false',
         content: income2014,
         allowHTML: true,
-        appendTo: document.body,
         boundary: 'window',
         placement: 'auto',
-        placement: 'auto-start',
-        placement: 'auto-end',
         interactive: true
       });
       
@@ -426,15 +396,10 @@ document.getElementById("comparative_other").innerHTML = compOth.length;
       }
       tippy('#income_newborn', {
         maxWidth: '9',
-        trigger: 'mouseenter focus',
-        hideOnClick: 'false',
         content: incomeNewborn,
         allowHTML: true,
-        appendTo: document.body,
         boundary: 'window',
         placement: 'auto',
-        placement: 'auto-start',
-        placement: 'auto-end',
         interactive: true
       });
       
@@ -449,15 +414,10 @@ document.getElementById("comparative_other").innerHTML = compOth.length;
       }
       tippy('#income_infant', {
         maxWidth: '9',
-        trigger: 'mouseenter focus',
-        hideOnClick: 'false',
         content: incomeInfant,
         allowHTML: true,
-        appendTo: document.body,
         boundary: 'window',
         placement: 'auto',
-        placement: 'auto-start',
-        placement: 'auto-end',
         interactive: true
       });
       
@@ -472,15 +432,10 @@ document.getElementById("comparative_other").innerHTML = compOth.length;
       }
       tippy('#income_toddler', {
         maxWidth: '9',
-        trigger: 'mouseenter focus',
-        hideOnClick: 'false',
         content: incomeToddler,
         allowHTML: true,
-        appendTo: document.body,
         boundary: 'window',
         placement: 'auto',
-        placement: 'auto-start',
-        placement: 'auto-end',
         interactive: true
       });
       
@@ -495,15 +450,10 @@ document.getElementById("comparative_other").innerHTML = compOth.length;
       }
       tippy('#income_preschooler', {
         maxWidth: '9',
-        trigger: 'mouseenter focus',
-        hideOnClick: 'false',
         content: incomePreschooler,
         allowHTML: true,
-        appendTo: document.body,
         boundary: 'window',
         placement: 'auto',
-        placement: 'auto-start',
-        placement: 'auto-end',
         interactive: true
       });
       
@@ -518,15 +468,10 @@ document.getElementById("comparative_other").innerHTML = compOth.length;
       }
       tippy('#income_other', {
         maxWidth: '9',
-        trigger: 'mouseenter focus',
-        hideOnClick: 'false',
         content: incomeOther,
         allowHTML: true,
-        appendTo: document.body,
         boundary: 'window',
         placement: 'auto',
-        placement: 'auto-start',
-        placement: 'auto-end',
         interactive: true
       });
 
@@ -542,16 +487,11 @@ for(var i = 0; i < 109; i++){
 
 }
 tippy('#parent_africa', {
-  maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
+  maxWidth: '',
   content: parentAfrica,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 
@@ -567,15 +507,10 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#parent_east', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: parentEast,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 
@@ -591,15 +526,10 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#parent_south', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: parentSouth,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 
@@ -614,15 +544,10 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#parent_latin', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: parentLatin,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 
@@ -637,15 +562,10 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#parent_1998', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: parent1998,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 
@@ -661,15 +581,10 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#parent_2006', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: parent2006,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 
@@ -686,15 +601,10 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#parent_2010', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: parent2010,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 
@@ -710,15 +620,10 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#parent_2014', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: parent2014,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 
@@ -734,15 +639,10 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#parent_newborn', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: parentNewborn,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 
@@ -757,15 +657,10 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#parent_infant', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: parentInfant,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 
@@ -780,15 +675,10 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#parent_toddler', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: parentToddler,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 
@@ -803,15 +693,10 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#parent_preschooler', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: parentPreschooler,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 
@@ -829,15 +714,10 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#child_africa', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: childAfrica,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 
@@ -853,15 +733,10 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#child_east', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: childEast,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 
@@ -877,15 +752,10 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#child_south', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: childSouth,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 
@@ -900,15 +770,10 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#child_latin', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: childLatin,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 
@@ -923,15 +788,10 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#child_pacific', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: childPacific,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 
@@ -946,15 +806,10 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#child_1998', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: child1998,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 
@@ -970,15 +825,10 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#child_2006', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: child2006,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 
@@ -995,15 +845,10 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#child_2010', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: child2010,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 
@@ -1019,15 +864,10 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#child_2014', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: child2014,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 
@@ -1043,15 +883,10 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#child_newborn', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: childNewborn,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 
@@ -1066,15 +901,10 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#child_infant', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: childInfant,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 
@@ -1089,15 +919,10 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#child_toddler', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: childToddler,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 
@@ -1112,15 +937,10 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#child_preschooler', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: childPreschooler,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 
@@ -1135,15 +955,10 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#child_other', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: childOther,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 }); 
 
@@ -1161,15 +976,10 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#integrated_east', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: integratedEast,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 
@@ -1184,15 +994,10 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#integrated_latin', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: integratedLatin,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 
@@ -1207,15 +1012,10 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#integrated_1998', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: integrated1998,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 
@@ -1231,67 +1031,12 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#integrated_2006', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: integrated2006,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
-
-
-
-let integrated2010 = '';
-// for(var i = 0; i < data.length; i++){      
-for(var i = 0; i < 109; i++){
-  
-  if(data[i].Link != "" && data[i].Intervention === "Integrated" && data[i].Outcomes.includes("2010"))
-  integrated2010 += "<a target=_blank" + ' href=' + data[i].Link + '>' + data[i].Author +'</a>' + '<br>';
-    else if(data[i].Link === "" && data[i].Intervention === "Integrated" && data[i].Outcomes.includes("2010"))
-    integrated2010 += data[i].Author + '<br>';
-}
-tippy('#integrated_2010', {
-  maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
-  content: integrated2010,
-  allowHTML: true,
-  appendTo: document.body,
-  boundary: 'window',
-  placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
-  interactive: true
-});
-
-
-let integrated2014 = '';
-// for(var i = 0; i < data.length; i++){      
-for(var i = 0; i < 109; i++){
-  
-  if(data[i].Link != "" && data[i].Intervention === "Integrated" && data[i].Outcomes.includes("2014"))
-  integrated2014 += "<a target=_blank" + ' href=' + data[i].Link + '>' + data[i].Author +'</a>' + '<br>';
-    else if(data[i].Link === "" && data[i].Intervention === "Integrated" && data[i].Outcomes.includes("2014"))
-    integrated2014 += data[i].Author + '<br>';
-}
-tippy('#integrated_2014', {
-  maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
-  content: integrated2014,
-  allowHTML: true,
-  appendTo: document.body,
-  boundary: 'window',
-  placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
-  interactive: true
-});
-
 
 let integratedNewborn = '';
 // for(var i = 0; i < data.length; i++){      
@@ -1304,15 +1049,10 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#integrated_newborn', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: integratedNewborn,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 
@@ -1327,15 +1067,10 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#integrated_infant', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: integratedInfant,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 
@@ -1350,15 +1085,10 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#integrated_toddler', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: integratedToddler,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 
@@ -1373,15 +1103,10 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#integrated_preschooler', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: integratedPreschooler,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 
@@ -1396,15 +1121,10 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#integrated_other', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: integratedOther,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 
@@ -1421,15 +1141,10 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#quality_africa', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: qualityAfrica,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 
@@ -1445,15 +1160,10 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#quality_east', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: qualityEast,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 
@@ -1469,15 +1179,10 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#quality_south', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: qualitySouth,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 
@@ -1492,15 +1197,10 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#quality_latin', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: qualityLatin,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 
@@ -1515,15 +1215,10 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#quality_1998', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: quality1998,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 
@@ -1539,15 +1234,10 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#quality_2006', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: quality2006,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 
@@ -1564,15 +1254,10 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#quality_2010', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: quality2010,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 
@@ -1588,15 +1273,10 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#quality_2014', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: quality2014,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 
@@ -1612,15 +1292,10 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#quality_newborn', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: qualityNewborn,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 
@@ -1635,15 +1310,10 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#quality_infant', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: qualityInfant,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 
@@ -1658,15 +1328,10 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#quality_toddler', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: qualityToddler,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 
@@ -1681,15 +1346,10 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#quality_preschooler', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: qualityPreschooler,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 
@@ -1704,15 +1364,10 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#quality_other', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: qualityOther,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 
@@ -1731,15 +1386,10 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#comparative_africa', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: comparativeAfrica,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 
@@ -1755,15 +1405,10 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#comparative_east', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: comparativeEast,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 
@@ -1778,15 +1423,10 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#comparative_latin', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: comparativeLatin,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 
@@ -1801,18 +1441,12 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#comparative_1998', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: comparative1998,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
-
 
 let comparative2006 = '';
 // for(var i = 0; i < data.length; i++){      
@@ -1825,19 +1459,12 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#comparative_2006', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: comparative2006,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
-
-
 
 let comparative2014 = '';
 // for(var i = 0; i < data.length; i++){      
@@ -1850,15 +1477,10 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#comparative_2014', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: comparative2014,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 
@@ -1874,15 +1496,10 @@ for(var i = 0; i < 109; i++){
 }
 tippy('#comparative_preschooler', {
   maxWidth: '9',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: comparativePreschooler,
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 
@@ -1894,131 +1511,81 @@ xhttp.send();
 
 tippy('#income', {
   maxWidth: '20',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: 'This category includes interventions which aim to improve children\'s learning through direct injections of funds into the home environment.',
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 tippy('#parent', {
   maxWidth: '',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
-  content: 'This category includes studies in which the focal point of the intervention is the parent, or wider family group.',
+  content: 'This category includes studies in which the focal point of the intervention is the parent, or wider family group. \n https://research.acer.edu.au/monitoring_learning/43/',
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 tippy('#child', {
   maxWidth: '',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: 'This category includes all studies in which the intervention involved the provision of support for learning directly to the child.',
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 tippy('#integrated', {
   maxWidth: '',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: 'This category includes studies of interventions that combine multiple services or supports, including across health and education.',
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 tippy('#quality', {
   maxWidth: '',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: 'This category includes any studies of interventions which sought to improve the quality of an existing intervention. ',
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 tippy('#comparative', {
   maxWidth: '',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: 'This small group of studies compared the effects of interventions in one or more categories.',
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 tippy('#newborn', {
   maxWidth: '',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: 'Newborn - 0-4 weeks of age',
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 tippy('#infant', {
   maxWidth: '',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: 'Infant - 5 weeks - 12 months (i.e. up to 12 months of age)',
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 tippy('#toddler', {
   maxWidth: '',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: 'Toddler - 1–3 years (over 12 months and upto 3 years)',
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
 tippy('#preschooler', {
   maxWidth: '',
-  trigger: 'mouseenter focus',
-  hideOnClick: 'false',
   content: 'Preschooler - 3-6 years  (over 3 years and upto 6 years)',
   allowHTML: true,
-  appendTo: document.body,
   boundary: 'window',
   placement: 'auto',
-  placement: 'auto-start',
-  placement: 'auto-end',
   interactive: true
 });
