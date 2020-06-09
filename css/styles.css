@@ -123,12 +123,23 @@ body{
     font-size: 1em;
     font-weight: bold;
 }
-.h5 {
-    background-color: lime;
+.title{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 11px;
+}
+.description {
+    background-color: black;
+    color: white;
+    opacity: .8;
+    padding: 3px;
+    border-radius: 11px;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
 }
 .tippy-box {
     background-color:rgb(255, 255, 255);
     color:rgb(0, 0, 0);
     box-shadow: 0 0 20px 5px rgba(50, 50, 50, 0.25);
-    
 }
