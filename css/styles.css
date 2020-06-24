@@ -5,7 +5,6 @@
     /*grid shadow from here https://themesberg.com/blog/tutorial/neomorphic-elements-css-html-tutorial */
     box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff; 
 }
-
 .grid{
     display: grid;
     grid-template-columns: repeat(15, 1fr);
@@ -15,9 +14,7 @@
     /* width: 100%; */
     /* justify-items: center; */
 }
-
 /*intervention names on hover text colour and shadow remove*/
-
 .grid > .income:hover {
     color:#DDD;
     box-shadow: none;
@@ -85,7 +82,6 @@
     color:#DDD;
     box-shadow: none;
 }
-
 .blank{
     grid-column: 1/2;
     grid-row: 1/3
@@ -99,18 +95,15 @@
 .ageGroup{
     grid-column: 11/16;
 }
-
 body{
     margin: 2rem;
     font: 12px system-ui;
 }
 .h1 {
-    color: indigo;
     font-size: 2em;
     text-align: center;
 }
 .h2 {
-    color: indigo;
     font-size: 1.5em;
 }
 .h3 {
@@ -138,9 +131,10 @@ body{
     margin-top: .5rem;
     margin-bottom: .5rem;
 }
-
 .tippy-box {
     background-color:rgb(255, 255, 255);
     color:rgb(0, 0, 0);
     box-shadow: 0 0 20px 5px rgba(50, 50, 50, 0.25);
+    border-style: solid;
+    border-width: 1px;
 }
