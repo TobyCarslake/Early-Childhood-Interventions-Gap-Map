@@ -640,7 +640,7 @@ tippy('#parent_infant', {
   content: parentInfant,
   allowHTML: true,
   appendTo: document.body,
-  placement: 'bottom',
+  placement: 'left',
   interactive: true
 });
 
@@ -658,7 +658,7 @@ tippy('#parent_toddler', {
   content: parentToddler,
   allowHTML: true,
   appendTo: document.body,
-  placement: 'bottom',
+  placement: 'left',
   interactive: true
 });
 
@@ -907,7 +907,7 @@ tippy('#child_preschooler', {
   content: childPreschooler,
   allowHTML: true,
   appendTo: document.body,
-  placement: 'bottom',
+  placement: 'left',
   interactive: true
 });
 
