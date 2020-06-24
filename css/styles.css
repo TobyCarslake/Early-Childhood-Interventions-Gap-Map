@@ -60,11 +60,11 @@
     text-align: center;
 }
 .grid > .pubYear{
-    background: teal;
+    background: lightseagreen;
     text-align: center;
 }
 .grid > .age{
-    background: lightseagreen;
+    background: teal;
     text-align: center;
 }
 /* outcomes sections on hover styling */
