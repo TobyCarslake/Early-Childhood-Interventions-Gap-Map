@@ -1,5 +1,5 @@
 .grid > div{
-    background: slategray;
+    background: rgb(156, 156, 156);
     padding: 1rem;
     border-radius: 11px;
     /*grid shadow from here https://themesberg.com/blog/tutorial/neomorphic-elements-css-html-tutorial */
@@ -8,13 +8,10 @@
 .grid{
     display: grid;
     grid-template-columns: repeat(15, 1fr);
-    /* grid-template-rows: auto; */
     gap: .5rem;
-    /* grid-auto-rows: minmax(100, auto); */
-    /* width: 100%; */
-    /* justify-items: center; */
 }
 /*intervention names on hover text colour and shadow remove*/
+
 .grid > .income:hover {
     color:#DDD;
     box-shadow: none;
@@ -97,7 +94,8 @@
 }
 body{
     margin: 2rem;
-    font: 12px system-ui;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
 }
 .h1 {
     font-size: 2em;
@@ -122,10 +120,10 @@ body{
     padding: 15px;
     border-radius: 11px;
 }
-.description {
-    background-color: black;
+.h5 {
+    background-color: rgb(34, 34, 34);
     color: white;
-    opacity: .8;
+    /* opacity: .8; */
     padding: 3px;
     border-radius: 11px;
     margin-top: .5rem;

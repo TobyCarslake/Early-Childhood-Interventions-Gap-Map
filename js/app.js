@@ -285,8 +285,7 @@ document.getElementById("comparative_other").innerHTML = compOth.length;
         maxWidth: '9',
         content: incomeAfrica,
         allowHTML: true,
-        boundary: 'window',
-        placement: 'auto',
+        appendTo: document.body,
         interactive: true
       });
 
@@ -303,8 +302,7 @@ document.getElementById("comparative_other").innerHTML = compOth.length;
         maxWidth: '9',
         content: incomeLatin,
         allowHTML: true,
-        boundary: 'window',
-        placement: 'auto',
+        appendTo: document.body,
         interactive: true
       });
 
@@ -321,8 +319,7 @@ document.getElementById("comparative_other").innerHTML = compOth.length;
         maxWidth: '9',
         content: income1998,
         allowHTML: true,
-        boundary: 'window',
-        placement: 'auto',
+        appendTo: document.body,
         interactive: true
       });
 
@@ -340,8 +337,7 @@ document.getElementById("comparative_other").innerHTML = compOth.length;
         maxWidth: '9',
         content: income2006,
         allowHTML: true,
-        boundary: 'window',
-        placement: 'auto',
+        appendTo: document.body,
         interactive: true
       });
 
@@ -360,8 +356,7 @@ document.getElementById("comparative_other").innerHTML = compOth.length;
         maxWidth: '9',
         content: income2010,
         allowHTML: true,
-        boundary: 'window',
-        placement: 'auto',
+        appendTo: document.body,
         interactive: true
       });
       
@@ -379,8 +374,7 @@ document.getElementById("comparative_other").innerHTML = compOth.length;
         maxWidth: '9',
         content: income2014,
         allowHTML: true,
-        boundary: 'window',
-        placement: 'auto',
+        appendTo: document.body,
         interactive: true
       });
       
@@ -398,8 +392,7 @@ document.getElementById("comparative_other").innerHTML = compOth.length;
         maxWidth: '9',
         content: incomeNewborn,
         allowHTML: true,
-        boundary: 'window',
-        placement: 'auto',
+        appendTo: document.body,
         interactive: true
       });
       
@@ -416,8 +409,7 @@ document.getElementById("comparative_other").innerHTML = compOth.length;
         maxWidth: '9',
         content: incomeInfant,
         allowHTML: true,
-        boundary: 'window',
-        placement: 'auto',
+        appendTo: document.body,
         interactive: true
       });
       
@@ -434,8 +426,7 @@ document.getElementById("comparative_other").innerHTML = compOth.length;
         maxWidth: '9',
         content: incomeToddler,
         allowHTML: true,
-        boundary: 'window',
-        placement: 'auto',
+        appendTo: document.body,
         interactive: true
       });
       
@@ -452,8 +443,7 @@ document.getElementById("comparative_other").innerHTML = compOth.length;
         maxWidth: '9',
         content: incomePreschooler,
         allowHTML: true,
-        boundary: 'window',
-        placement: 'auto',
+        appendTo: document.body,
         interactive: true
       });
       
@@ -470,8 +460,7 @@ document.getElementById("comparative_other").innerHTML = compOth.length;
         maxWidth: '9',
         content: incomeOther,
         allowHTML: true,
-        boundary: 'window',
-        placement: 'auto',
+        appendTo: document.body,
         interactive: true
       });
 
@@ -490,8 +479,7 @@ tippy('#parent_africa', {
   maxWidth: '',
   content: parentAfrica,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -509,8 +497,7 @@ tippy('#parent_east', {
   maxWidth: '9',
   content: parentEast,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -528,8 +515,7 @@ tippy('#parent_south', {
   maxWidth: '9',
   content: parentSouth,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -546,8 +532,7 @@ tippy('#parent_latin', {
   maxWidth: '9',
   content: parentLatin,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -564,8 +549,7 @@ tippy('#parent_1998', {
   maxWidth: '9',
   content: parent1998,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -583,8 +567,7 @@ tippy('#parent_2006', {
   maxWidth: '9',
   content: parent2006,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -603,8 +586,7 @@ tippy('#parent_2010', {
   maxWidth: '9',
   content: parent2010,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -622,8 +604,7 @@ tippy('#parent_2014', {
   maxWidth: '9',
   content: parent2014,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -641,8 +622,7 @@ tippy('#parent_newborn', {
   maxWidth: '9',
   content: parentNewborn,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -659,8 +639,7 @@ tippy('#parent_infant', {
   maxWidth: '9',
   content: parentInfant,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -677,8 +656,7 @@ tippy('#parent_toddler', {
   maxWidth: '9',
   content: parentToddler,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -695,8 +673,7 @@ tippy('#parent_preschooler', {
   maxWidth: '9',
   content: parentPreschooler,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -716,8 +693,7 @@ tippy('#child_africa', {
   maxWidth: '9',
   content: childAfrica,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -735,8 +711,7 @@ tippy('#child_east', {
   maxWidth: '9',
   content: childEast,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -754,8 +729,7 @@ tippy('#child_south', {
   maxWidth: '9',
   content: childSouth,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -772,8 +746,7 @@ tippy('#child_latin', {
   maxWidth: '9',
   content: childLatin,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -790,8 +763,7 @@ tippy('#child_pacific', {
   maxWidth: '9',
   content: childPacific,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -808,8 +780,7 @@ tippy('#child_1998', {
   maxWidth: '9',
   content: child1998,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -827,8 +798,7 @@ tippy('#child_2006', {
   maxWidth: '9',
   content: child2006,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -847,8 +817,7 @@ tippy('#child_2010', {
   maxWidth: '9',
   content: child2010,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -866,8 +835,7 @@ tippy('#child_2014', {
   maxWidth: '9',
   content: child2014,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -885,8 +853,7 @@ tippy('#child_newborn', {
   maxWidth: '9',
   content: childNewborn,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -903,8 +870,7 @@ tippy('#child_infant', {
   maxWidth: '9',
   content: childInfant,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -921,8 +887,7 @@ tippy('#child_toddler', {
   maxWidth: '9',
   content: childToddler,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -939,8 +904,7 @@ tippy('#child_preschooler', {
   maxWidth: '9',
   content: childPreschooler,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -957,8 +921,7 @@ tippy('#child_other', {
   maxWidth: '9',
   content: childOther,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 }); 
 
@@ -978,8 +941,7 @@ tippy('#integrated_east', {
   maxWidth: '9',
   content: integratedEast,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -996,8 +958,7 @@ tippy('#integrated_latin', {
   maxWidth: '9',
   content: integratedLatin,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -1014,8 +975,7 @@ tippy('#integrated_1998', {
   maxWidth: '9',
   content: integrated1998,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -1033,8 +993,7 @@ tippy('#integrated_2006', {
   maxWidth: '9',
   content: integrated2006,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -1051,8 +1010,7 @@ tippy('#integrated_newborn', {
   maxWidth: '9',
   content: integratedNewborn,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -1069,8 +1027,7 @@ tippy('#integrated_infant', {
   maxWidth: '9',
   content: integratedInfant,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -1087,8 +1044,7 @@ tippy('#integrated_toddler', {
   maxWidth: '9',
   content: integratedToddler,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -1105,8 +1061,7 @@ tippy('#integrated_preschooler', {
   maxWidth: '9',
   content: integratedPreschooler,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -1123,8 +1078,7 @@ tippy('#integrated_other', {
   maxWidth: '9',
   content: integratedOther,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -1143,8 +1097,7 @@ tippy('#quality_africa', {
   maxWidth: '9',
   content: qualityAfrica,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -1162,8 +1115,7 @@ tippy('#quality_east', {
   maxWidth: '9',
   content: qualityEast,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -1181,8 +1133,7 @@ tippy('#quality_south', {
   maxWidth: '9',
   content: qualitySouth,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -1199,8 +1150,7 @@ tippy('#quality_latin', {
   maxWidth: '9',
   content: qualityLatin,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -1217,8 +1167,7 @@ tippy('#quality_1998', {
   maxWidth: '9',
   content: quality1998,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -1236,8 +1185,7 @@ tippy('#quality_2006', {
   maxWidth: '9',
   content: quality2006,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -1256,8 +1204,7 @@ tippy('#quality_2010', {
   maxWidth: '9',
   content: quality2010,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -1275,8 +1222,7 @@ tippy('#quality_2014', {
   maxWidth: '9',
   content: quality2014,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -1294,8 +1240,7 @@ tippy('#quality_newborn', {
   maxWidth: '9',
   content: qualityNewborn,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -1312,8 +1257,7 @@ tippy('#quality_infant', {
   maxWidth: '9',
   content: qualityInfant,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -1330,8 +1274,7 @@ tippy('#quality_toddler', {
   maxWidth: '9',
   content: qualityToddler,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -1348,8 +1291,7 @@ tippy('#quality_preschooler', {
   maxWidth: '9',
   content: qualityPreschooler,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -1366,8 +1308,7 @@ tippy('#quality_other', {
   maxWidth: '9',
   content: qualityOther,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -1388,8 +1329,7 @@ tippy('#comparative_africa', {
   maxWidth: '9',
   content: comparativeAfrica,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -1407,8 +1347,7 @@ tippy('#comparative_east', {
   maxWidth: '9',
   content: comparativeEast,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -1425,8 +1364,7 @@ tippy('#comparative_latin', {
   maxWidth: '9',
   content: comparativeLatin,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -1443,8 +1381,7 @@ tippy('#comparative_1998', {
   maxWidth: '9',
   content: comparative1998,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -1461,8 +1398,7 @@ tippy('#comparative_2006', {
   maxWidth: '9',
   content: comparative2006,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -1479,8 +1415,7 @@ tippy('#comparative_2014', {
   maxWidth: '9',
   content: comparative2014,
   allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
+  appendTo: document.body,
   interactive: true
 });
 
@@ -1498,8 +1433,6 @@ tippy('#comparative_preschooler', {
   maxWidth: '',
   content: comparativePreschooler,
   allowHTML: true,
-  // boundary: 'window',
-  // placement: 'auto'
   appendTo: document.body,
   interactive: true
 });
@@ -1522,75 +1455,57 @@ tippy('#income', {
   appendTo: document.body
 });
 tippy('#parent', {
-  // maxWidth: '9',
-  content: 'This category includes studies in which the focal point of the intervention is the parent, or wider family group. \n https://research.acer.edu.au/monitoring_learning/43/',
-  allowHTML: true,
-  // boundary: 'window',
-  // placement: 'auto',
-  interactive: true
+  maxWidth: '',
+  content: 'This category includes studies in which the focal point of the intervention is the parent, or wider family group.',
+  interactive: true,
+  appendTo: document.body
 });
 tippy('#child', {
   maxWidth: '',
   content: 'This category includes all studies in which the intervention involved the provision of support for learning directly to the child.',
-  allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
-  interactive: true
+  interactive: true,
+  appendTo: document.body
 });
 tippy('#integrated', {
   maxWidth: '',
   content: 'This category includes studies of interventions that combine multiple services or supports, including across health and education.',
-  allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
-  interactive: true
+  interactive: true,
+  appendTo: document.body
 });
 tippy('#quality', {
   maxWidth: '',
   content: 'This category includes any studies of interventions which sought to improve the quality of an existing intervention. ',
-  allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
-  interactive: true
+  interactive: true,
+  appendTo: document.body
 });
 tippy('#comparative', {
   maxWidth: '',
   content: 'This small group of studies compared the effects of interventions in one or more categories.',
-  allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
-  interactive: true
+  interactive: true,
+  appendTo: document.body
 });
 tippy('#newborn', {
   maxWidth: '',
   content: 'Newborn - 0-4 weeks of age',
-  allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
-  interactive: true
+  interactive: true,
+  appendTo: document.body
 });
 tippy('#infant', {
   maxWidth: '',
   content: 'Infant - 5 weeks - 12 months (i.e. up to 12 months of age)',
-  allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
-  interactive: true
+  interactive: true,
+  appendTo: document.body
 });
 tippy('#toddler', {
   maxWidth: '',
   content: 'Toddler - 1–3 years (over 12 months and up to 3 years)',
-  allowHTML: true,
-  boundary: 'window',
-  placement: 'auto',
-  interactive: true
+  interactive: true,
+  appendTo: document.body
 });
 tippy('#preschooler', {
-  // maxWidth: '',
+  maxWidth: '',
   content: 'Preschooler - 3-6 years  (over 3 years and up to 6 years)',
-  // allowHTML: true,
-  // boundary: 'window',
-  // placement: 'auto',
-  // interactive: true
+  interactive: true,
+  appendTo: document.body
 });
 
