@@ -3,272 +3,364 @@
 const xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-      //  // Typical action to be performed when the document is ready:
+      //  Typical action to be performed when the document is ready:
       //  document.getElementById("demo").innerHTML = xhttp.responseText;
       const response = JSON.parse(xhttp.responseText);
       console.log(response.data);
       const data = response.data;
-//income variables
-      let incAfr = data.filter(it => it.Intervention.includes('Income') && it.Outcomes.includes('Africa'));
-      document.getElementById("income_africa").innerHTML = incAfr.length;
 
-      let incEast = data.filter(it => it.Intervention.includes('Income') && it.Outcomes.includes('East Asia'));
-      document.getElementById("income_east").innerHTML = incEast.length;
+      const interventions = ['Income supplementation','Parent-focused','Child-focused','Integrated','Quality','Comparative'];
+      const regions = ['Africa and the Middle East','East Asia','South and West Asia','Latin America and the Caribbean','The Pacific'];
+      const pubYears = ['1998-2005','2006-2009','2010-2013','2014-2017'];
+      const age = ['Newborn','Infant','Toddler','Preschooler','Other'];
+      //console.log(regions.length);
+      const allGrid = document.querySelectorAll(".region, .age, .pubYear");
+      const allGridArray = Array.from(allGrid);
 
-      let incSth = data.filter(it => it.Intervention.includes('Income') && it.Outcomes.includes('South and West Asia'));
-      document.getElementById("income_south").innerHTML = incSth.length;
+      //let regionGrid = document.getElementsByClassName("region");
+      console.log(allGrid);
+      console.log(allGridArray);
+      //let pubyearGrid = document.getElementsByClassName("pubYear");
+      //let ageGrid = document.getElementsByClassName("age");
+      //console.log(regionGrid);
+     
+//region grid length
+    
+    
+    for (i=0; i < allGridArray.length; i++) {
+      y = allGridArray[i].id;
+      console.log(allGrid[i]);
+      console.log(y);
+      
+      let x = data.filter(it => it.Intervention.includes(allGridArray[i].id) && it.Outcomes.includes(allGridArray[i].id));
+      console.log(x)
+      console.log(y)
+      //regionGrid[i].innerHTML = regionGrid[i].id;// data.filter(it => it.Intervention.includes(interventions[i]) && it.Outcomes.includes(regions[i])).length;
+        allGrid[i].innerHTML = x.length;
+        console.log(x.length);
+        
+      // for (j=0; j < 50; j++) {
 
-      let incLat = data.filter(it => it.Intervention.includes('Income') && it.Outcomes.includes('Latin America and the Caribbean'));
-      document.getElementById("income_latin").innerHTML = incLat.length;
+      //   regionGrid[j].innerHTML = data.filter(it => it.Intervention.includes(interventions[j]) && it.Outcomes.includes(regions[j])).length;
+      //   console.log(regionGridArray.length);
+      // }
+    };
+   // let test = data.filter(function(arr){return arr.name == ''})[0];    
+//region grid opacity
+      //for (let i= 0; i < regionGrid.length; i++) {
+       // regionGrid[i].style.opacity = regionGrid[i].innerHTML/14;
+          
+        //};
+// // pubYear grid length
+//         for (let i= 0; i < regionGrid.length; i++) {
+//           regionGrid[i].innerHTML = data.filter(it => it.Intervention.includes(interventions[i]) && it.Outcomes.includes(categories[i])).length;
+//         };
+// //pubYear opacity
+//         for (let i= 0; i < regionGrid.length; i++) {
+//           regionGrid[i].style.opacity = regionGrid[i].innerHTML/14;
+// //age grid length            
+//           };
+//           for (let i= 0; i < regionGrid.length; i++) {
+//             regionGrid[i].innerHTML = data.filter(it => it.Intervention.includes(interventions[i]) && it.Outcomes.includes(categories[i])).length;
+//           };
+// //age grid opacity
+//           for (let i= 0; i < regionGrid.length; i++) {
+//             regionGrid[i].style.opacity = regionGrid[i].innerHTML/14;
+              
+//             };
 
-      let incPac = data.filter(it => it.Intervention.includes('Income') && it.Outcomes.includes('The Pacific'));
-      document.getElementById("income_pacific").innerHTML = incPac.length;
 
-      let inc1998 = data.filter(it => it.Intervention.includes('Income') && it.Outcomes.includes('1998-2005'));
-      document.getElementById("income_1998").innerHTML = inc1998.length;
 
-      let inc2006 = data.filter(it => it.Intervention.includes('Income') && it.Outcomes.includes('2006-2009'));
-      document.getElementById("income_2006").innerHTML = inc2006.length;
+      //income variables
 
-      let inc2010 = data.filter(it => it.Intervention.includes('Income') && it.Outcomes.includes('2010-2013'));
-      document.getElementById("income_2010").innerHTML = inc2010.length;
+      // let incAfr = data.filter(it => it.Intervention.includes('Income') && it.Outcomes.includes('Africa'));
+      // document.getElementById("income_africa").innerHTML = incAfr.length;
+      // document.getElementById("income_africa").style.opacity = incAfr.length/14;
 
-      let inc2014 = data.filter(it => it.Intervention.includes('Income') && it.Outcomes.includes('2014-2017'));
-      document.getElementById("income_2014").innerHTML = inc2014.length;
+      // let incEast = data.filter(it => it.Intervention.includes('Income') && it.Outcomes.includes('East Asia'));
+      // document.getElementById("income_east").innerHTML = incEast.length;
+      // document.getElementById("income_east").style.opacity = incEast.length/14;
 
-      let incNew = data.filter(it => it.Intervention.includes('Income') && it.Outcomes.includes('Newborn'));
-      document.getElementById("income_newborn").innerHTML = incNew.length;
+      // let incSth = data.filter(it => it.Intervention.includes('Income') && it.Outcomes.includes('South and West Asia'));
+      // document.getElementById("income_south").innerHTML = incSth.length;
+      // document.getElementById("income_south").style.opacity = incSth.length/14;
 
-      let incInf = data.filter(it => it.Intervention.includes('Income') && it.Outcomes.includes('Infant'));
-      document.getElementById("income_infant").innerHTML = incInf.length;
+      // let incLat = data.filter(it => it.Intervention.includes('Income') && it.Outcomes.includes('Latin America and the Caribbean'));
+      // document.getElementById("income_latin").innerHTML = incLat.length;
+      // document.getElementById("income_latin").style.opacity = incLat.length/14;
 
-      let incTod = data.filter(it => it.Intervention.includes('Income') && it.Outcomes.includes('Toddler'));
-      document.getElementById("income_toddler").innerHTML = incTod.length;
+      // let incPac = data.filter(it => it.Intervention.includes('Income') && it.Outcomes.includes('The Pacific'));
+      // document.getElementById("income_pacific").innerHTML = incPac.length;
+      // document.getElementById("income_pacific").style.opacity = incPac.length/14;
 
-      let incPre = data.filter(it => it.Intervention.includes('Income') && it.Outcomes.includes('Preschooler'));
-      document.getElementById("income_preschooler").innerHTML = incPre.length;
+      // let inc1998 = data.filter(it => it.Intervention.includes('Income') && it.Outcomes.includes('1998-2005'));
+      // document.getElementById("income_1998").innerHTML = inc1998.length;
+      // document.getElementById("income_1998").style.opacity = inc1998.length/17;
 
-      let incOth = data.filter(it => it.Intervention.includes('Income') && it.Outcomes.includes('Other'));
-      document.getElementById("income_other").innerHTML = incOth.length;
+      // let inc2006 = data.filter(it => it.Intervention.includes('Income') && it.Outcomes.includes('2006-2009'));
+      // document.getElementById("income_2006").innerHTML = inc2006.length;
+      // document.getElementById("income_2006").style.opacity = inc2006.length/17;
+
+      // let inc2010 = data.filter(it => it.Intervention.includes('Income') && it.Outcomes.includes('2010-2013'));
+      // document.getElementById("income_2010").innerHTML = inc2010.length;
+      // document.getElementById("income_2010").style.opacity = inc2010.length/17;
+
+      // let inc2014 = data.filter(it => it.Intervention.includes('Income') && it.Outcomes.includes('2014-2017'));
+      // document.getElementById("income_2014").innerHTML = inc2014.length;
+      // document.getElementById("income_2014").style.opacity = inc2014.length/17;
+
+      // let incNew = data.filter(it => it.Intervention.includes('Income') && it.Outcomes.includes('Newborn'));
+      // document.getElementById("income_newborn").innerHTML = incNew.length;
+      // document.getElementById("income_newborn").style.opacity = incNew.length/34;
+
+      // let incInf = data.filter(it => it.Intervention.includes('Income') && it.Outcomes.includes('Infant'));
+      // document.getElementById("income_infant").innerHTML = incInf.length;
+      // document.getElementById("income_infant").style.opacity = incInf.length/34;
+
+      // let incTod = data.filter(it => it.Intervention.includes('Income') && it.Outcomes.includes('Toddler'));
+      // document.getElementById("income_toddler").innerHTML = incTod.length;
+      // document.getElementById("income_toddler").style.opacity = incTod.length/34;
+
+      // let incPre = data.filter(it => it.Intervention.includes('Income') && it.Outcomes.includes('Preschooler'));
+      // document.getElementById("income_preschooler").innerHTML = incPre.length;
+      // document.getElementById("income_preschooler").style.opacity = incPre.length/34;
+
+      // let incOth = data.filter(it => it.Intervention.includes('Income') && it.Outcomes.includes('Other'));
+      // document.getElementById("income_other").innerHTML = incOth.length;
+      // document.getElementById("income_other").style.opacity = incOth.length/34;
 
 // Parent-focused variables
 
-      let parAfr = data.filter(it => it.Intervention.includes('Parent') && it.Outcomes.includes('Africa'));
-      document.getElementById("parent_africa").innerHTML = parAfr.length;
+//       let parAfr = data.filter(it => it.Intervention.includes('Parent') && it.Outcomes.includes('Africa'));
+//       document.getElementById("parent_africa").innerHTML = parAfr.length;
+//       document.getElementById("parent_africa").style.opacity = parAfr.length/14;
 
-      let parEast = data.filter(it => it.Intervention.includes('Parent') && it.Outcomes.includes('East Asia'));
-      document.getElementById("parent_east").innerHTML = parEast.length;
+//       let parEast = data.filter(it => it.Intervention.includes('Parent') && it.Outcomes.includes('East Asia'));
+//       document.getElementById("parent_east").innerHTML = parEast.length;
+//       document.getElementById("parent_east").style.opacity = parEast.length/14;
 
-      let parSth = data.filter(it => it.Intervention.includes('Parent') && it.Outcomes.includes('South and West Asia'));
-      document.getElementById("parent_south").innerHTML = parSth.length;
+//       let parSth = data.filter(it => it.Intervention.includes('Parent') && it.Outcomes.includes('South and West Asia'));
+//       document.getElementById("parent_south").innerHTML = parSth.length;
+//       document.getElementById("parent_south").style.opacity = parSth.length/14;
 
-      let parLat = data.filter(it => it.Intervention.includes('Parent') && it.Outcomes.includes('Latin America and the Caribbean'));
-      document.getElementById("parent_latin").innerHTML = parLat.length;
+//       let parLat = data.filter(it => it.Intervention.includes('Parent') && it.Outcomes.includes('Latin America and the Caribbean'));
+//       document.getElementById("parent_latin").innerHTML = parLat.length;
+//       document.getElementById("parent_latin").style.opacity = parLat.length/14;
 
-      let parPac = data.filter(it => it.Intervention.includes('Parent') && it.Outcomes.includes('The Pacific'));
-      document.getElementById("parent_pacific").innerHTML = parPac.length;
+//       let parPac = data.filter(it => it.Intervention.includes('Parent') && it.Outcomes.includes('The Pacific'));
+//       document.getElementById("parent_pacific").innerHTML = parPac.length;
+//       document.getElementById("parent_pacific").style.opacity = parPac.length/14;
 
-      let par1998 = data.filter(it => it.Intervention.includes('Parent') && it.Outcomes.includes('1998-2005'));
-      document.getElementById("parent_1998").innerHTML = par1998.length;
+//       let par1998 = data.filter(it => it.Intervention.includes('Parent') && it.Outcomes.includes('1998-2005'));
+//       document.getElementById("parent_1998").innerHTML = par1998.length;
+//       document.getElementById("parent_1998").style.opacity = par1998.length/17;
 
-      let par2006 = data.filter(it => it.Intervention.includes('Parent') && it.Outcomes.includes('2006-2009'));
-      document.getElementById("parent_2006").innerHTML = par2006.length;
+//       let par2006 = data.filter(it => it.Intervention.includes('Parent') && it.Outcomes.includes('2006-2009'));
+//       document.getElementById("parent_2006").innerHTML = par2006.length;
+//       document.getElementById("parent_2006").style.opacity = par2006.length/17;
 
-      let par2010 = data.filter(it => it.Intervention.includes('Parent') && it.Outcomes.includes('2010-2013'));
-      document.getElementById("parent_2010").innerHTML = par2010.length;
+//       let par2010 = data.filter(it => it.Intervention.includes('Parent') && it.Outcomes.includes('2010-2013'));
+//       document.getElementById("parent_2010").innerHTML = par2010.length;
+//       document.getElementById("parent_2010").style.opacity = par2010.length/17;
 
-      let par2014 = data.filter(it => it.Intervention.includes('Parent') && it.Outcomes.includes('2014-2017'));
-      document.getElementById("parent_2014").innerHTML = par2014.length;
+//       let par2014 = data.filter(it => it.Intervention.includes('Parent') && it.Outcomes.includes('2014-2017'));
+//       document.getElementById("parent_2014").innerHTML = par2014.length;
+//       document.getElementById("parent_2014").style.opacity = par2014.length/17;
 
-      let parNew = data.filter(it => it.Intervention.includes('Parent') && it.Outcomes.includes('Newborn'));
-      document.getElementById("parent_newborn").innerHTML = parNew.length;
+//       let parNew = data.filter(it => it.Intervention.includes('Parent') && it.Outcomes.includes('Newborn'));
+//       document.getElementById("parent_newborn").innerHTML = parNew.length;
+//       document.getElementById("parent_newborn").style.opacity = parNew.length/34;
 
-      let parInf = data.filter(it => it.Intervention.includes('Parent') && it.Outcomes.includes('Infant'));
-      document.getElementById("parent_infant").innerHTML = parInf.length;
+//       let parInf = data.filter(it => it.Intervention.includes('Parent') && it.Outcomes.includes('Infant'));
+//       document.getElementById("parent_infant").innerHTML = parInf.length;
+//       document.getElementById("parent_infant").style.opacity = parInf.length/34;
 
-      let parTod = data.filter(it => it.Intervention.includes('Parent') && it.Outcomes.includes('Toddler'));
-      document.getElementById("parent_toddler").innerHTML = parTod.length;
+//       let parTod = data.filter(it => it.Intervention.includes('Parent') && it.Outcomes.includes('Toddler'));
+//       document.getElementById("parent_toddler").innerHTML = parTod.length;
+//       document.getElementById("parent_toddler").style.opacity = parTod.length/34;
 
-      let parPre = data.filter(it => it.Intervention.includes('Parent') && it.Outcomes.includes('Preschooler'));
-      document.getElementById("parent_preschooler").innerHTML = parPre.length;
+//       let parPre = data.filter(it => it.Intervention.includes('Parent') && it.Outcomes.includes('Preschooler'));
+//       document.getElementById("parent_preschooler").innerHTML = parPre.length;
+//       document.getElementById("parent_preschooler").style.opacity = parPre.length/34;
 
-      let parOth = data.filter(it => it.Intervention.includes('Parent') && it.Outcomes.includes('Other'));
-      document.getElementById("parent_other").innerHTML = parOth.length;
-// Child-focused variables
+//       let parOth = data.filter(it => it.Intervention.includes('Parent') && it.Outcomes.includes('Other'));
+//       document.getElementById("parent_other").innerHTML = parOth.length;
+//       document.getElementById("parent_other").style.opacity = parOth.length/34;
+// // Child-focused variables
 
-let chAfr = data.filter(it => it.Intervention.includes('Child') && it.Outcomes.includes('Africa'));
-document.getElementById("child_africa").innerHTML = chAfr.length;
+// let chAfr = data.filter(it => it.Intervention.includes('Child') && it.Outcomes.includes('Africa'));
+// document.getElementById("child_africa").innerHTML = chAfr.length;
 
-let chEast = data.filter(it => it.Intervention.includes('Child') && it.Outcomes.includes('East Asia'));
-document.getElementById("child_east").innerHTML = chEast.length;
+// let chEast = data.filter(it => it.Intervention.includes('Child') && it.Outcomes.includes('East Asia'));
+// document.getElementById("child_east").innerHTML = chEast.length;
 
-let chSth = data.filter(it => it.Intervention.includes('Child') && it.Outcomes.includes('South and West Asia'));
-document.getElementById("child_south").innerHTML = chSth.length;
+// let chSth = data.filter(it => it.Intervention.includes('Child') && it.Outcomes.includes('South and West Asia'));
+// document.getElementById("child_south").innerHTML = chSth.length;
 
-let chLat = data.filter(it => it.Intervention.includes('Child') && it.Outcomes.includes('Latin America and the Caribbean'));
-document.getElementById("child_latin").innerHTML = chLat.length;
+// let chLat = data.filter(it => it.Intervention.includes('Child') && it.Outcomes.includes('Latin America and the Caribbean'));
+// document.getElementById("child_latin").innerHTML = chLat.length;
 
-let chPac = data.filter(it => it.Intervention.includes('Child') && it.Outcomes.includes('The Pacific'));
-document.getElementById("child_pacific").innerHTML = chPac.length;
+// let chPac = data.filter(it => it.Intervention.includes('Child') && it.Outcomes.includes('The Pacific'));
+// document.getElementById("child_pacific").innerHTML = chPac.length;
 
-let ch1998 = data.filter(it => it.Intervention.includes('Child') && it.Outcomes.includes('1998-2005'));
-document.getElementById("child_1998").innerHTML = ch1998.length;
+// let ch1998 = data.filter(it => it.Intervention.includes('Child') && it.Outcomes.includes('1998-2005'));
+// document.getElementById("child_1998").innerHTML = ch1998.length;
 
-let ch2006 = data.filter(it => it.Intervention.includes('Child') && it.Outcomes.includes('2006-2009'));
-document.getElementById("child_2006").innerHTML = ch2006.length;
+// let ch2006 = data.filter(it => it.Intervention.includes('Child') && it.Outcomes.includes('2006-2009'));
+// document.getElementById("child_2006").innerHTML = ch2006.length;
 
-let ch2010 = data.filter(it => it.Intervention.includes('Child') && it.Outcomes.includes('2010-2013'));
-document.getElementById("child_2010").innerHTML = ch2010.length;
+// let ch2010 = data.filter(it => it.Intervention.includes('Child') && it.Outcomes.includes('2010-2013'));
+// document.getElementById("child_2010").innerHTML = ch2010.length;
 
-let ch2014 = data.filter(it => it.Intervention.includes('Child') && it.Outcomes.includes('2014-2017'));
-document.getElementById("child_2014").innerHTML = ch2014.length;
+// let ch2014 = data.filter(it => it.Intervention.includes('Child') && it.Outcomes.includes('2014-2017'));
+// document.getElementById("child_2014").innerHTML = ch2014.length;
 
-let chNew = data.filter(it => it.Intervention.includes('Child') && it.Outcomes.includes('Newborn'));
-document.getElementById("child_newborn").innerHTML = chNew.length;
+// let chNew = data.filter(it => it.Intervention.includes('Child') && it.Outcomes.includes('Newborn'));
+// document.getElementById("child_newborn").innerHTML = chNew.length;
 
-let chInf = data.filter(it => it.Intervention.includes('Child') && it.Outcomes.includes('Infant'));
-document.getElementById("child_infant").innerHTML = chInf.length;
+// let chInf = data.filter(it => it.Intervention.includes('Child') && it.Outcomes.includes('Infant'));
+// document.getElementById("child_infant").innerHTML = chInf.length;
 
-let chTod = data.filter(it => it.Intervention.includes('Child') && it.Outcomes.includes('Toddler'));
-document.getElementById("child_toddler").innerHTML = chTod.length;
+// let chTod = data.filter(it => it.Intervention.includes('Child') && it.Outcomes.includes('Toddler'));
+// document.getElementById("child_toddler").innerHTML = chTod.length;
 
-let chPre = data.filter(it => it.Intervention.includes('Child') && it.Outcomes.includes('Preschooler'));
-document.getElementById("child_preschooler").innerHTML = chPre.length;
+// let chPre = data.filter(it => it.Intervention.includes('Child') && it.Outcomes.includes('Preschooler'));
+// document.getElementById("child_preschooler").innerHTML = chPre.length;
 
-let chOth = data.filter(it => it.Intervention.includes('Child') && it.Outcomes.includes('Other'));
-document.getElementById("child_other").innerHTML = chOth.length;
+// let chOth = data.filter(it => it.Intervention.includes('Child') && it.Outcomes.includes('Other'));
+// document.getElementById("child_other").innerHTML = chOth.length;
 
-// Integrated variables
+// // Integrated variables
 
-let intAfr = data.filter(it => it.Intervention.includes('Integrated') && it.Outcomes.includes('Africa'));
-document.getElementById("integrated_africa").innerHTML = intAfr.length;
+// let intAfr = data.filter(it => it.Intervention.includes('Integrated') && it.Outcomes.includes('Africa'));
+// document.getElementById("integrated_africa").innerHTML = intAfr.length;
 
-let intEast = data.filter(it => it.Intervention.includes('Integrated') && it.Outcomes.includes('East Asia'));
-document.getElementById("integrated_east").innerHTML = intEast.length;
+// let intEast = data.filter(it => it.Intervention.includes('Integrated') && it.Outcomes.includes('East Asia'));
+// document.getElementById("integrated_east").innerHTML = intEast.length;
 
-let intSth = data.filter(it => it.Intervention.includes('Integrated') && it.Outcomes.includes('South and West Asia'));
-document.getElementById("integrated_south").innerHTML = intSth.length;
+// let intSth = data.filter(it => it.Intervention.includes('Integrated') && it.Outcomes.includes('South and West Asia'));
+// document.getElementById("integrated_south").innerHTML = intSth.length;
 
-let intLat = data.filter(it => it.Intervention.includes('Integrated') && it.Outcomes.includes('Latin America and the Caribbean'));
-document.getElementById("integrated_latin").innerHTML = intLat.length;
+// let intLat = data.filter(it => it.Intervention.includes('Integrated') && it.Outcomes.includes('Latin America and the Caribbean'));
+// document.getElementById("integrated_latin").innerHTML = intLat.length;
 
-let intPac = data.filter(it => it.Intervention.includes('Integrated') && it.Outcomes.includes('The Pacific'));
-document.getElementById("integrated_pacific").innerHTML = intPac.length;
+// let intPac = data.filter(it => it.Intervention.includes('Integrated') && it.Outcomes.includes('The Pacific'));
+// document.getElementById("integrated_pacific").innerHTML = intPac.length;
 
-let int1998 = data.filter(it => it.Intervention.includes('Integrated') && it.Outcomes.includes('1998-2005'));
-document.getElementById("integrated_1998").innerHTML = int1998.length;
+// let int1998 = data.filter(it => it.Intervention.includes('Integrated') && it.Outcomes.includes('1998-2005'));
+// document.getElementById("integrated_1998").innerHTML = int1998.length;
 
-let int2006 = data.filter(it => it.Intervention.includes('Integrated') && it.Outcomes.includes('2006-2009'));
-document.getElementById("integrated_2006").innerHTML = int2006.length;
+// let int2006 = data.filter(it => it.Intervention.includes('Integrated') && it.Outcomes.includes('2006-2009'));
+// document.getElementById("integrated_2006").innerHTML = int2006.length;
 
-let int2010 = data.filter(it => it.Intervention.includes('Integrated') && it.Outcomes.includes('2010-2013'));
-document.getElementById("integrated_2010").innerHTML = int2010.length;
+// let int2010 = data.filter(it => it.Intervention.includes('Integrated') && it.Outcomes.includes('2010-2013'));
+// document.getElementById("integrated_2010").innerHTML = int2010.length;
 
-let int2014 = data.filter(it => it.Intervention.includes('Integrated') && it.Outcomes.includes('2014-2017'));
-document.getElementById("integrated_2014").innerHTML = int2014.length;
+// let int2014 = data.filter(it => it.Intervention.includes('Integrated') && it.Outcomes.includes('2014-2017'));
+// document.getElementById("integrated_2014").innerHTML = int2014.length;
 
-let intNew = data.filter(it => it.Intervention.includes('Integrated') && it.Outcomes.includes('Newborn'));
-document.getElementById("integrated_newborn").innerHTML = intNew.length;
+// let intNew = data.filter(it => it.Intervention.includes('Integrated') && it.Outcomes.includes('Newborn'));
+// document.getElementById("integrated_newborn").innerHTML = intNew.length;
 
-let intInf = data.filter(it => it.Intervention.includes('Integrated') && it.Outcomes.includes('Infant'));
-document.getElementById("integrated_infant").innerHTML = intInf.length;
+// let intInf = data.filter(it => it.Intervention.includes('Integrated') && it.Outcomes.includes('Infant'));
+// document.getElementById("integrated_infant").innerHTML = intInf.length;
 
-let intTod = data.filter(it => it.Intervention.includes('Integrated') && it.Outcomes.includes('Toddler'));
-document.getElementById("integrated_toddler").innerHTML = intTod.length;
+// let intTod = data.filter(it => it.Intervention.includes('Integrated') && it.Outcomes.includes('Toddler'));
+// document.getElementById("integrated_toddler").innerHTML = intTod.length;
 
-let intPre = data.filter(it => it.Intervention.includes('Integrated') && it.Outcomes.includes('Preschooler'));
-document.getElementById("integrated_preschooler").innerHTML = intPre.length;
+// let intPre = data.filter(it => it.Intervention.includes('Integrated') && it.Outcomes.includes('Preschooler'));
+// document.getElementById("integrated_preschooler").innerHTML = intPre.length;
 
-let intOth = data.filter(it => it.Intervention.includes('Integrated') && it.Outcomes.includes('Other'));
-document.getElementById("integrated_other").innerHTML = intOth.length;
+// let intOth = data.filter(it => it.Intervention.includes('Integrated') && it.Outcomes.includes('Other'));
+// document.getElementById("integrated_other").innerHTML = intOth.length;
 
-// Quality variables
+// // Quality variables
 
-let qualAfr = data.filter(it => it.Intervention.includes('Quality') && it.Outcomes.includes('Africa'));
-document.getElementById("quality_africa").innerHTML = qualAfr.length;
+// let qualAfr = data.filter(it => it.Intervention.includes('Quality') && it.Outcomes.includes('Africa'));
+// document.getElementById("quality_africa").innerHTML = qualAfr.length;
 
-let qualEast = data.filter(it => it.Intervention.includes('Quality') && it.Outcomes.includes('East Asia'));
-document.getElementById("quality_east").innerHTML = qualEast.length;
+// let qualEast = data.filter(it => it.Intervention.includes('Quality') && it.Outcomes.includes('East Asia'));
+// document.getElementById("quality_east").innerHTML = qualEast.length;
 
-let qualSth = data.filter(it => it.Intervention.includes('Quality') && it.Outcomes.includes('South and West Asia'));
-document.getElementById("quality_south").innerHTML = qualSth.length;
+// let qualSth = data.filter(it => it.Intervention.includes('Quality') && it.Outcomes.includes('South and West Asia'));
+// document.getElementById("quality_south").innerHTML = qualSth.length;
 
-let qualLat = data.filter(it => it.Intervention.includes('Quality') && it.Outcomes.includes('Latin America and the Caribbean'));
-document.getElementById("quality_latin").innerHTML = qualLat.length;
+// let qualLat = data.filter(it => it.Intervention.includes('Quality') && it.Outcomes.includes('Latin America and the Caribbean'));
+// document.getElementById("quality_latin").innerHTML = qualLat.length;
 
-let qualPac = data.filter(it => it.Intervention.includes('Quality') && it.Outcomes.includes('The Pacific'));
-document.getElementById("quality_pacific").innerHTML = qualPac.length;
+// let qualPac = data.filter(it => it.Intervention.includes('Quality') && it.Outcomes.includes('The Pacific'));
+// document.getElementById("quality_pacific").innerHTML = qualPac.length;
 
-let qual1998 = data.filter(it => it.Intervention.includes('Quality') && it.Outcomes.includes('1998-2005'));
-document.getElementById("quality_1998").innerHTML = qual1998.length;
+// let qual1998 = data.filter(it => it.Intervention.includes('Quality') && it.Outcomes.includes('1998-2005'));
+// document.getElementById("quality_1998").innerHTML = qual1998.length;
 
-let qual2006 = data.filter(it => it.Intervention.includes('Quality') && it.Outcomes.includes('2006-2009'));
-document.getElementById("quality_2006").innerHTML = qual2006.length;
+// let qual2006 = data.filter(it => it.Intervention.includes('Quality') && it.Outcomes.includes('2006-2009'));
+// document.getElementById("quality_2006").innerHTML = qual2006.length;
 
-let qual2010 = data.filter(it => it.Intervention.includes('Quality') && it.Outcomes.includes('2010-2013'));
-document.getElementById("quality_2010").innerHTML = qual2010.length;
+// let qual2010 = data.filter(it => it.Intervention.includes('Quality') && it.Outcomes.includes('2010-2013'));
+// document.getElementById("quality_2010").innerHTML = qual2010.length;
 
-let qual2014 = data.filter(it => it.Intervention.includes('Quality') && it.Outcomes.includes('2014-2017'));
-document.getElementById("quality_2014").innerHTML = qual2014.length;
+// let qual2014 = data.filter(it => it.Intervention.includes('Quality') && it.Outcomes.includes('2014-2017'));
+// document.getElementById("quality_2014").innerHTML = qual2014.length;
 
-let qualNew = data.filter(it => it.Intervention.includes('Quality') && it.Outcomes.includes('Newborn'));
-document.getElementById("quality_newborn").innerHTML = qualNew.length;
+// let qualNew = data.filter(it => it.Intervention.includes('Quality') && it.Outcomes.includes('Newborn'));
+// document.getElementById("quality_newborn").innerHTML = qualNew.length;
 
-let qualInf = data.filter(it => it.Intervention.includes('Quality') && it.Outcomes.includes('Infant'));
-document.getElementById("quality_infant").innerHTML = qualInf.length;
+// let qualInf = data.filter(it => it.Intervention.includes('Quality') && it.Outcomes.includes('Infant'));
+// document.getElementById("quality_infant").innerHTML = qualInf.length;
 
-let qualTod = data.filter(it => it.Intervention.includes('Quality') && it.Outcomes.includes('Toddler'));
-document.getElementById("quality_toddler").innerHTML = qualTod.length;
+// let qualTod = data.filter(it => it.Intervention.includes('Quality') && it.Outcomes.includes('Toddler'));
+// document.getElementById("quality_toddler").innerHTML = qualTod.length;
 
-let qualPre = data.filter(it => it.Intervention.includes('Quality') && it.Outcomes.includes('Preschooler'));
-document.getElementById("quality_preschooler").innerHTML = qualPre.length;
+// let qualPre = data.filter(it => it.Intervention.includes('Quality') && it.Outcomes.includes('Preschooler'));
+// document.getElementById("quality_preschooler").innerHTML = qualPre.length;
 
-let qualOth = data.filter(it => it.Intervention.includes('Quality') && it.Outcomes.includes('Other'));
-document.getElementById("quality_other").innerHTML = qualOth.length;
+// let qualOth = data.filter(it => it.Intervention.includes('Quality') && it.Outcomes.includes('Other'));
+// document.getElementById("quality_other").innerHTML = qualOth.length;
 
-// Comparative variables
+// // Comparative variables
 
-let compAfr = data.filter(it => it.Intervention.includes('Comparative') && it.Outcomes.includes('Africa'));
-document.getElementById("comparative_africa").innerHTML = compAfr.length;
+// let compAfr = data.filter(it => it.Intervention.includes('Comparative') && it.Outcomes.includes('Africa'));
+// document.getElementById("comparative_africa").innerHTML = compAfr.length;
 
-let compEast = data.filter(it => it.Intervention.includes('Comparative') && it.Outcomes.includes('East Asia'));
-document.getElementById("comparative_east").innerHTML = compEast.length;
+// let compEast = data.filter(it => it.Intervention.includes('Comparative') && it.Outcomes.includes('East Asia'));
+// document.getElementById("comparative_east").innerHTML = compEast.length;
 
-let compSth = data.filter(it => it.Intervention.includes('Comparative') && it.Outcomes.includes('South and West Asia'));
-document.getElementById("comparative_south").innerHTML = compSth.length;
+// let compSth = data.filter(it => it.Intervention.includes('Comparative') && it.Outcomes.includes('South and West Asia'));
+// document.getElementById("comparative_south").innerHTML = compSth.length;
 
-let compLat = data.filter(it => it.Intervention.includes('Comparative') && it.Outcomes.includes('Latin America and the Caribbean'));
-document.getElementById("comparative_latin").innerHTML = compLat.length;
+// let compLat = data.filter(it => it.Intervention.includes('Comparative') && it.Outcomes.includes('Latin America and the Caribbean'));
+// document.getElementById("comparative_latin").innerHTML = compLat.length;
 
-let compPac = data.filter(it => it.Intervention.includes('Comparative') && it.Outcomes.includes('The Pacific'));
-document.getElementById("comparative_pacific").innerHTML = compPac.length;
+// let compPac = data.filter(it => it.Intervention.includes('Comparative') && it.Outcomes.includes('The Pacific'));
+// document.getElementById("comparative_pacific").innerHTML = compPac.length;
 
-let comp1998 = data.filter(it => it.Intervention.includes('Comparative') && it.Outcomes.includes('1998-2005'));
-document.getElementById("comparative_1998").innerHTML = comp1998.length;
+// let comp1998 = data.filter(it => it.Intervention.includes('Comparative') && it.Outcomes.includes('1998-2005'));
+// document.getElementById("comparative_1998").innerHTML = comp1998.length;
 
-let comp2006 = data.filter(it => it.Intervention.includes('Comparative') && it.Outcomes.includes('2006-2009'));
-document.getElementById("comparative_2006").innerHTML = comp2006.length;
+// let comp2006 = data.filter(it => it.Intervention.includes('Comparative') && it.Outcomes.includes('2006-2009'));
+// document.getElementById("comparative_2006").innerHTML = comp2006.length;
 
-let comp2010 = data.filter(it => it.Intervention.includes('Comparative') && it.Outcomes.includes('2010-2013'));
-document.getElementById("comparative_2010").innerHTML = comp2010.length;
+// let comp2010 = data.filter(it => it.Intervention.includes('Comparative') && it.Outcomes.includes('2010-2013'));
+// document.getElementById("comparative_2010").innerHTML = comp2010.length;
 
-let comp2014 = data.filter(it => it.Intervention.includes('Comparative') && it.Outcomes.includes('2014-2017'));
-document.getElementById("comparative_2014").innerHTML = comp2014.length;
+// let comp2014 = data.filter(it => it.Intervention.includes('Comparative') && it.Outcomes.includes('2014-2017'));
+// document.getElementById("comparative_2014").innerHTML = comp2014.length;
 
-let compNew = data.filter(it => it.Intervention.includes('Comparative') && it.Outcomes.includes('Newborn'));
-document.getElementById("comparative_newborn").innerHTML = compNew.length;
+// let compNew = data.filter(it => it.Intervention.includes('Comparative') && it.Outcomes.includes('Newborn'));
+// document.getElementById("comparative_newborn").innerHTML = compNew.length;
 
-let compInf = data.filter(it => it.Intervention.includes('Comparative') && it.Outcomes.includes('Infant'));
-document.getElementById("comparative_infant").innerHTML = compInf.length;
+// let compInf = data.filter(it => it.Intervention.includes('Comparative') && it.Outcomes.includes('Infant'));
+// document.getElementById("comparative_infant").innerHTML = compInf.length;
 
-let compTod = data.filter(it => it.Intervention.includes('Comparative') && it.Outcomes.includes('Toddler'));
-document.getElementById("comparative_toddler").innerHTML = compTod.length;
+// let compTod = data.filter(it => it.Intervention.includes('Comparative') && it.Outcomes.includes('Toddler'));
+// document.getElementById("comparative_toddler").innerHTML = compTod.length;
 
-let compPre = data.filter(it => it.Intervention.includes('Comparative') && it.Outcomes.includes('Preschooler'));
-document.getElementById("comparative_preschooler").innerHTML = compPre.length;
+// let compPre = data.filter(it => it.Intervention.includes('Comparative') && it.Outcomes.includes('Preschooler'));
+// document.getElementById("comparative_preschooler").innerHTML = compPre.length;
 
-let compOth = data.filter(it => it.Intervention.includes('Comparative') && it.Outcomes.includes('Other'));
-document.getElementById("comparative_other").innerHTML = compOth.length;
+// let compOth = data.filter(it => it.Intervention.includes('Comparative') && it.Outcomes.includes('Other'));
+// document.getElementById("comparative_other").innerHTML = compOth.length;
 
 /// ********************************************************** Income
       let incomeAfrica = '';
@@ -279,6 +371,7 @@ document.getElementById("comparative_other").innerHTML = compOth.length;
         incomeAfrica += "<a target=_blank" + ' href=' + data[i].Link + '>' + data[i].Author +'</a>' + '<br>';
           else if(data[i].Link === "" && data[i].Intervention === "Income supplementation" && data[i].Outcomes.includes("Africa"))
           incomeAfrica += data[i].Author + '<br>';
+          console.log(incomeAfrica);
 
       }
       tippy('#income_africa', {
@@ -467,6 +560,7 @@ document.getElementById("comparative_other").innerHTML = compOth.length;
 /// ********************************************************** Parent
 let parentAfrica = '';
 // for(var i = 0; i < data.length; i++){      
+
 for(var i = 0; i < 109; i++){
   
   if(data[i].Link != "" && data[i].Intervention === "Parent-focused" && data[i].Outcomes.includes("Africa"))

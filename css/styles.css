@@ -1,15 +1,20 @@
 .grid > div{
     background: rgb(156, 156, 156);
-    padding: 1rem;
+    padding: .8rem;
     border-radius: 11px;
     /*grid shadow from here https://themesberg.com/blog/tutorial/neomorphic-elements-css-html-tutorial */
     box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff; 
 }
 .grid{
     display: grid;
-    grid-template-columns: repeat(15, 1fr);
-    gap: .5rem;
     
+    grid-template-rows: auto repeat(7, 80px);
+    grid-template-columns: 150px repeat(14, 1fr);
+    gap: 6px;
+    margin: 10px;
+    padding: 15px;
+    width: 90%;
+    margin: auto;
 }
 /*intervention names on hover text colour and shadow remove*/
 
@@ -64,7 +69,7 @@
     text-align: center;
 }
 .grid > .age{
-    background: teal;
+    background: rgba(0, 128, 128, 1.0);
     text-align: center;
 }
 /* outcomes sections on hover styling */
@@ -97,8 +102,8 @@ body{
     margin: 2rem;
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
-    margin-left: 120px;
-    margin-right: 120px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 .h1 {
@@ -110,12 +115,12 @@ body{
 }
 .h3 {
     color: black;
-    font-size: 1.2em;
+    font-size: 1em;
     /* font-weight: bold; */
 }
 .h4 {
     color: black;
-    font-size: 1em;
+    font-size: .8em;
     /* font-weight: bold; */
 }
 .h5 {
@@ -128,15 +133,14 @@ body{
     padding: 15px;
     border-radius: 11px;
     text-align: center;
+    margin: 10px;
 }
 .description {
     background-color: rgb(126, 126, 126);
     color: white;
-    /* opacity: .8; */
+    margin: 10px;
     padding: 15px;
     border-radius: 11px;
-    margin-top: .5rem;
-    margin-bottom: .5rem;
 }
 a { color: blue;
 }
