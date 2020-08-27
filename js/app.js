@@ -1,51 +1,44 @@
-
-
 const xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
       const response = JSON.parse(xhttp.responseText);
       const data = response.data;
-      let region = document.querySelectorAll(".region");
       let allGrid = document.querySelectorAll(".region, .age, .pubYear");
       let allGridArray = Array.from(allGrid);
-
+      
     for (i=0; i < allGridArray.length; i++) {
       let y = allGridArray[i].classList[0];
       let z = allGridArray[i].classList[1];
       
-      allGrid[i].innerHTML = data.filter(it => it.Intervention.includes(y) && it.Outcomes.includes(z)).length;
-      
+      //allGrid[i].innerHTML = data.filter(it => it.Intervention.includes(y) && it.Outcomes.includes(z)).length;
+      allGrid[i].innerHTML += '<svg class="circle" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"> <circle r=' + data.filter(it => it.Intervention.includes(y) && it.Outcomes.includes(z)).length * 1.4 + ' cx="50%" cy="50%" stroke="black" stroke-width="2" fill=""/></svg>';
       let pop = "";
       for(var j = 0; j < 109; j++){
         
-        if(data[j].Link != "" && data[j].Intervention === allGridArray[i].classList[0] && data[j].Outcomes.includes(allGridArray[i].classList[1]))
+        if(data[j].Link != "" && data[j].Intervention === y && data[j].Outcomes.includes(z))
         pop += "<a target=_blank" + ' href=' + data[j].Link + '>' + data[j].Author +'</a>' + '<br>';
-          else if(data[j].Link === "" && data[j].Intervention === allGridArray[i].classList[0] && data[j].Outcomes.includes(allGridArray[i].classList[1]))
+          else if(data[j].Link === "" && data[j].Intervention === y && data[j].Outcomes.includes(z))
           pop += data[j].Author + '<br>';
       };
       if(pop != "")
         tippy("#" + allGridArray[i].id, {
-        maxWidth: '9',
-        content: pop,
+        maxWidth: '',
+        content:   '<strong>' + data.filter(it => it.Intervention.includes(y) && it.Outcomes.includes(z)).length + '</strong>' + '<br>' + pop,
         allowHTML: true,
+        flip: true,
+        boundary: 'parent',
         appendTo: document.body,
-        interactive: true     
-      })
+        interactive: true
+      });
     pop = '';
     };
-}
-       };
+}};
 xhttp.open("GET", "data.json", true);
 xhttp.send();
 
 tippy('#income', {
   maxWidth: '',
   content: 'This category includes interventions which aim to improve children\'s learning through direct injections of funds into the home environment.',
-  // allowHTML: true,
-  // boundary: 'window',
-  // placement: 'auto',
-  // hideOnClick: false,
-  // trigger: 'click',
   interactive: true,
   appendTo: document.body
 });
@@ -103,4 +96,3 @@ tippy('#preschooler', {
   interactive: true,
   appendTo: document.body
 });
-

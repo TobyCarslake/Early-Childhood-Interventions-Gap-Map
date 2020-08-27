@@ -8,8 +8,8 @@
   <meta name="description" content="ACER GEM Gap Map">
   <meta name="ACER" content="Gap Map">
   <!-- <base href="/"> -->
-  <link href="https://unpkg.com/tippy.js@6/animations/scale.css"/>
-  <link href="https://unpkg.com/tippy.js/dist/tippy.css">
+  <!-- <link href="https://unpkg.com/tippy.js@6/animations/scale.css"/>
+  <link href="https://unpkg.com/tippy.js/dist/tippy.css"> -->
   <link rel="stylesheet" href="css/styles.css">
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
@@ -24,351 +24,268 @@
 
 <div class="description">
   This Gap Map is an output from the <a target="_blank" href="https://research.acer.edu.au/monitoring_learning/38/" title="Improving young children’s learning in economically developing countries: What works, why, and where? Scoping review">Improving young children’s learning in economically developing countries: What works, why, and where? Scoping review</a>.<br>
-  <br>It displays each of the review's 109 studies by Intervention type and Region, Publication Year Range or Age group.<br><br>
-  Hover over the numbers in the cells to display information about the studies. (click on the cell to hide the displayed studies)
-</div>
+  <br>It displays each of the review's 109 studies by Intervention type and then by Region, Publication Year Range and Age group.<br><br>
 
-<div class="grid">
-  <div class="blank h4">
-    109 studies
-    <br>
-    <br>
-    <br>
-    <br>
-    <h2>Interventions</h2>
-  </div>
-  <div class="dfatRegion h3">
-    DFAT Region
-  </div>
-  <div class="yearRange h3">
-    Publication Year Range
-  </div>
-  <div class="ageGroup h3">
-    Age Group
-  </div>
-  <div class="h4">
-    Africa and the Middle East
-  </div>
-  <div class="h4">
-    East Asia
-  </div>
-  <div class="h4">
-    South and West Asia
-  </div>
-  <div class="h4">
-    Latin America and the Caribbean
-  </div>
-  <div class="h4">
-    The Pacific
-  </div>
-  <div class="h4">
-    1998-2005
-  </div>
-  <div class="h4">
-    2006-2009
-  </div>
-  <div class="h4">
-    2010-2013
-  </div>
-  <div class="h4">
-    2014-2017
-  </div>
-  <div id="newborn" class="h4">
-    New-
-    born
-  </div>
-  <div id="infant" class="h4">
-    Infant
-  </div>
-  <div id="toddler"  class="h4">
-    Toddler
-  </div>
-  <div id="preschooler"  class="h4">
-    Pre-
-    schooler
-  </div>
-  <div class="h4">
-    Other
-  </div>
-  <div id='income' class="h3">
-    Income<br> Supplementation
-  </div>
-  <div id="income_africa" class="income africa region">
-    1
-  </div>
-  <div id="income_east" class="income east region">
-    2
-  </div>
-  <div id="income_south" class="income south region">
-    3
-  </div>
-  <div id="income_latin" class="income latin region">
-    4
-  </div>
-  <div id="income_pacific" class="income pacific region">
-    5
-  </div>
-  <div id="income_1998" class="income 1998 pubYear">
-    6
-  </div>
-  <div id="income_2006" class="income 2006 pubYear">
-    7
-  </div>
-  <div id="income_2010" class="income 2010 pubYear">
-    8
-  </div>
-  <div id="income_2014" class="income 2014 pubYear">
-    9
-  </div>
-  <div id="income_newborn" class="income newborn age">
-    10
-  </div>
-  <div id="income_infant" class="income infant age">
-    11
-  </div>
-  <div id="income_toddler" class="income toddler age">
-    12
-  </div>
-  <div id="income_preschooler" class="income preschooler age">
-    13
-  </div>
-  <div id="income_other" class="income other age">
-    14
-  </div>
-  <div id='parent' class="h3">
-    Parent-focused
-  </div>
-  <div id="parent_africa" class="parent africa region">
-    1
-  </div>
-  <div id="parent_east" class="parent east region">
-    2
-  </div>
-  <div id="parent_south" class="parent south region">
-    3
-  </div>
-  <div id="parent_latin" class="parent latin region">
-    4
-  </div>
-  <div id="parent_pacific" class="parent pacific region">
-    5
-  </div>
-  <div id="parent_1998" class="parent 1998 pubYear">
-    6
-  </div>
-  <div id="parent_2006" class="parent 2006 pubYear">
-    7
-  </div>
-  <div id="parent_2010" class="parent 2010 pubYear">
-    8
-  </div>
-  <div id="parent_2014" class="parent 2014 pubYear">
-    9
-  </div>
-  <div id="parent_newborn" class="parent newborn age">
-    10
-  </div>
-  <div id="parent_infant" class="parent infant age">
-    11
-  </div>
-  <div id="parent_toddler" class="parent toddler age">
-    12
-  </div>
-  <div id="parent_preschooler" class="parent preschooler age">
-    13
-  </div>
-  <div id="parent_other" class="parent other age">
-    14
-  </div>
-  <div id='child' class="h3">
-    Child-focused
-  </div>
-  <div id="child_africa" class="child africa region">
-    1
-  </div>
-  <div id="child_east" class="child east region">
-    2
-  </div>
-  <div id="child_south" class="child south region">
-    3
-  </div>
-  <div id="child_latin" class="child latin region">
-    4
-  </div>
-  <div id="child_pacific" class="child pacific region">
-    5
-  </div>
-  <div id="child_1998" class="child 1998 pubYear">
-    6
-  </div>
-  <div id="child_2006" class="child 2006 pubYear">
-    7
-  </div>
-  <div id="child_2010" class="child 2010 pubYear">
-    8
-  </div>
-  <div id="child_2014" class="child 2014 pubYear">
-    9
-  </div>
-  <div id="child_newborn" class="child newborn age">
-    10
-  </div>
-  <div id="child_infant" class="child infant age">
-    11
-  </div>
-  <div id="child_toddler" class="child toddler age">
-    12
-  </div>
-  <div id="child_preschooler" class="child preschooler age">
-    13
-  </div>
-  <div id="child_other" class="child other age">
-    14
-  </div>
-  <div id='integrated' class="h3">
-    Integrated
-  </div>
-  <div id="integrated_africa" class="integrated africa region">
-    1
-  </div>
-  <div id="integrated_east" class="integrated east region">
-    2
-  </div>
-  <div id="integrated_south" class="integrated south region">
-    3
-  </div>
-  <div id="integrated_latin" class="integrated latin region">
-    4
-  </div>
-  <div id="integrated_pacific" class="integrated pacific region">
-    5
-  </div>
-  <div id="integrated_1998" class="integrated 1998 pubYear">
-    6
-  </div>
-  <div id="integrated_2006" class="integrated 2006 pubYear">
-    7
-  </div>
-  <div id="integrated_2010" class="integrated 2010 pubYear">
-    8
-  </div>
-  <div id="integrated_2014" class="integrated 2014 pubYear">
-    9
-  </div>
-  <div id="integrated_newborn" class="integrated newborn age">
-    10
-  </div>
-  <div id="integrated_infant" class="integrated infant age">
-    11
-  </div>
-  <div id="integrated_toddler" class="integrated toddler age">
-    12
-  </div>
-  <div id="integrated_preschooler" class="integrated preschooler age">
-    13
-  </div>
-  <div id="integrated_other" class="integrated other age">
-    14
-  </div>
-  <div id='quality' class="h3">
-    Quality
-  </div>
-  <div id="quality_africa" class="quality africa region">
-    1
-  </div>
-  <div id="quality_east" class="quality east region">
-    2
-  </div>
-  <div id="quality_south" class="quality south region">
-    3
-  </div>
-  <div id="quality_latin" class="quality latin region">
-    4
-  </div>
-  <div id="quality_pacific" class="quality pacific region">
-    5
-  </div>
-  <div id="quality_1998" class="quality 1998 pubYear">
-    6
-  </div>
-  <div id="quality_2006" class="quality 2006 pubYear">
-    7
-  </div>
-  <div id="quality_2010" class="quality 2010 pubYear">
-    8
-  </div>
-  <div id="quality_2014" class="quality 2014 pubYear">
-    9
-  </div>
-  <div id="quality_newborn" class="quality newborn age">
-    10
-  </div>
-  <div id="quality_infant" class="quality infant age">
-    11
-  </div>
-  <div id="quality_toddler" class="quality toddler age">
-    12
-  </div>
-  <div id="quality_preschooler" class="quality preschooler age">
-    13
-  </div>
-  <div id="quality_other" class="quality other age">
-    14
-  </div>
-  <div id='comparative' class="h3">
-    Comparative
-  </div>
-  <div id="comparative_africa" class="comparative africa region">
-    1
-  </div>
-  <div id="comparative_east" class="comparative east region">
-    2
-  </div>
-  <div id="comparative_south" class="comparative south region">
-    3
-  </div>
-  <div id="comparative_latin" class="comparative latin region">
-    4
-  </div>
-  <div id="comparative_pacific" class="comparative pacific region">
-    5
-  </div>
-  <div id="comparative_1998" class="comparative 1998 pubYear">
-    6
-  </div>
-  <div id="comparative_2006" class="comparative 2006 pubYear">
-    7
-  </div>
-  <div id="comparative_2010" class="comparative 2010 pubYear">
-    8
-  </div>
-  <div id="comparative_2014" class="comparative 2014 pubYear">
-    9
-  </div>
-  <div id="comparative_newborn" class="comparative newborn age">
-    10
-  </div>
-  <div id="comparative_infant" class="comparative infant age">
-    11
-  </div>
-  <div id="comparative_toddler" class="comparative toddler age">
-    12
-  </div>
-  <div id="comparative_preschooler" class="comparative preschooler age">
-    13
-  </div>
-  <div id="comparative_other" class="comparative other age">
-    14
-  </div>
-</div>
-<div class="description">
   <h3>Improving young children’s learning in economically developing countries: What works, why, and where? Scoping review</h3>
   <p>The past two decades have seen growing international recognition that children's learning does not begin at school. The learning opportunities that children experience in the early years of life lay important foundations for their learning at school, and the effects of quality early learning can persist beyond school into adulthood. This means that an increasing number of countries recognise the importance of investment in early learning and development, to provide quality early learning opportunities for all children.</p>
   <p>Less is currently known about how to target this investment, to deliver the best possible outcomes for children and families. What is known about effective interventions to support children's learning in the years before school largely originates from developed countries. This means that developing countries - who have much to gain from the benefits of quality early learning - have an especially limited evidence base to guide investment in children's learning in the earliest years. By the time these children reach school, valuable opportunities to support their learning have often already been lost.</p>
   <p>This scoping review examines the evidence base for interventions to support young children's learning in the years before school, with a focus on economically developing countries. While many of the insights from research into early interventions in developed countries are also applicable in developing country contexts, this study recognizes that such countries face particular challenges that require a different range of solutions. Hence, the purpose of this study is twofold:</p>
   <p style="margin-left:30px;">First, it seeks to strengthen the evidence base for developing countries to draw on in their pursuit of the UN Sustainable Development Goal related to quality early learning.</p>
   <p style="margin-left:30px;">Second, it is aimed at identifying areas where more and where less is known to inform where further primary studies are required to broaden the evidence base.</p>
-  <h3>
+
+  Hover over the numbers in the cells to display information about the studies. (click on the cell to hide the displayed studies)
+</div>
+
+<div class="grid" tabindex="0">
+  <div class="blank h3" tabindex="0">
+    109 studies
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>Interventions</h3>
+  </div>
+  <div class="dfatRegion h3" tabindex="0">
+    DFAT Region
+  </div>
+  <div class="yearRange h3" tabindex="0">
+    Publication Year Range
+  </div>
+  <div class="ageGroup h3" tabindex="0">
+    Age Group
+  </div>
+  <div class="h4 dfatRegionSub" tabindex="0">
+    Africa and the Middle East
+  </div>
+  <div class="h4 dfatRegionSub" tabindex="0">
+    East Asia
+  </div>
+  <div class="h4 dfatRegionSub" tabindex="0">
+    South and West Asia
+  </div>
+  <div class="h4 dfatRegionSub" tabindex="0">
+    Latin America and the Caribbean
+  </div>
+  <div class="h4 dfatRegionSub" tabindex="0">
+    The Pacific
+  </div>
+  <div class="h4 pubYearSub" tabindex="0">
+    1998-2005
+  </div>
+  <div class="h4 pubYearSub" tabindex="0">
+    2006-2009
+  </div>
+  <div class="h4 pubYearSub" tabindex="0">
+    2010-2013
+  </div>
+  <div class="h4 pubYearSub"tabindex="0">
+    2014-2017
+  </div>
+  <div id="newborn" class="h4 ageGroupSub" tabindex="0">
+    New-
+    born
+  </div>
+  <div id="infant" class="h4 ageGroupSub" tabindex="0">
+    Infant
+  </div>
+  <div id="toddler"  class="h4 ageGroupSub" tabindex="0">
+    Toddler
+  </div>
+  <div id="preschooler"  class="h4 ageGroupSub" tabindex="0">
+    Pre-
+    schooler
+  </div>
+  <div id="other" class="h4 ageGroupSub" tabindex="0">
+    Other
+  </div>
+  <div id='income' class="h3" tabindex="0">
+    Income<br> Supplementation
+  </div>
+  <div id="income_africa" class="income africa region" tabindex="0">
+  </div>
+  <div id="income_east" class="income east region" tabindex="0">
+  </div>
+  <div id="income_south" class="income south region" tabindex="0">
+  </div>
+  <div id="income_latin" class="income latin region" tabindex="0">
+  </div>
+  <div id="income_pacific" class="income pacific region" tabindex="0">
+  </div>
+  <div id="income_1998" class="income 1998 pubYear" tabindex="0">
+  </div>
+  <div id="income_2006" class="income 2006 pubYear" tabindex="0">
+  </div>
+  <div id="income_2010" class="income 2010 pubYear" tabindex="0">
+  </div>
+  <div id="income_2014" class="income 2014 pubYear" tabindex="0">
+  </div>
+  <div id="income_newborn" class="income newborn age" tabindex="0">
+  </div>
+  <div id="income_infant" class="income infant age" tabindex="0">
+  </div>
+  <div id="income_toddler" class="income toddler age" tabindex="0">
+  </div>
+  <div id="income_preschooler" class="income preschooler age" tabindex="0">
+  </div>
+  <div id="income_other" class="income other age" tabindex="0">
+  </div>
+  <div id='parent' class="h3" tabindex="0">
+    Parent-focused
+  </div>
+  <div id="parent_africa" class="parent africa region" tabindex="0">
+  </div>
+  <div id="parent_east" class="parent east region" tabindex="0">
+  </div>
+  <div id="parent_south" class="parent south region" tabindex="0">
+  </div>
+  <div id="parent_latin" class="parent latin region" tabindex="0">
+  </div>
+  <div id="parent_pacific" class="parent pacific region" tabindex="0">
+  </div>
+  <div id="parent_1998" class="parent 1998 pubYear" tabindex="0">
+  </div>
+  <div id="parent_2006" class="parent 2006 pubYear" tabindex="0">
+  </div>
+  <div id="parent_2010" class="parent 2010 pubYear" tabindex="0">
+  </div>
+  <div id="parent_2014" class="parent 2014 pubYear" tabindex="0">
+  </div>
+  <div id="parent_newborn" class="parent newborn age" tabindex="0">
+  </div>
+  <div id="parent_infant" class="parent infant age" tabindex="0">
+  </div>
+  <div id="parent_toddler" class="parent toddler age" tabindex="0">
+  </div>
+  <div id="parent_preschooler" class="parent preschooler age" tabindex="0">
+  </div>
+  <div id="parent_other" class="parent other age" tabindex="0">
+  </div>
+  <div id='child' class="h3" tabindex="0">
+    Child-focused
+  </div>
+  <div id="child_africa" class="child africa region" tabindex="0">
+  </div>
+  <div id="child_east" class="child east region" tabindex="0">
+  </div>
+  <div id="child_south" class="child south region" tabindex="0">
+  </div>
+  <div id="child_latin" class="child latin region" tabindex="0">
+  </div>
+  <div id="child_pacific" class="child pacific region" tabindex="0">
+  </div>
+  <div id="child_1998" class="child 1998 pubYear" tabindex="0">
+  </div>
+  <div id="child_2006" class="child 2006 pubYear" tabindex="0">
+  </div>
+  <div id="child_2010" class="child 2010 pubYear" tabindex="0">
+  </div>
+  <div id="child_2014" class="child 2014 pubYear" tabindex="0">
+  </div>
+  <div id="child_newborn" class="child newborn age" tabindex="0">
+  </div>
+  <div id="child_infant" class="child infant age" tabindex="0">
+  </div>
+  <div id="child_toddler" class="child toddler age" tabindex="0">
+  </div>
+  <div id="child_preschooler" class="child preschooler age" tabindex="0">
+  </div>
+  <div id="child_other" class="child other age" tabindex="0">
+  </div>
+  <div id='integrated' class="h3" tabindex="0">
+    Integrated
+  </div>
+  <div id="integrated_africa" class="integrated africa region" tabindex="0">
+  </div>
+  <div id="integrated_east" class="integrated east region" tabindex="0">
+  </div>
+  <div id="integrated_south" class="integrated south region" tabindex="0">
+  </div>
+  <div id="integrated_latin" class="integrated latin region" tabindex="0">
+  </div>
+  <div id="integrated_pacific" class="integrated pacific region" tabindex="0">
+  </div>
+  <div id="integrated_1998" class="integrated 1998 pubYear" tabindex="0">
+  </div>
+  <div id="integrated_2006" class="integrated 2006 pubYear" tabindex="0">
+  </div>
+  <div id="integrated_2010" class="integrated 2010 pubYear" tabindex="0">
+  </div>
+  <div id="integrated_2014" class="integrated 2014 pubYear" tabindex="0">
+  </div>
+  <div id="integrated_newborn" class="integrated newborn age" tabindex="0">
+  </div>
+  <div id="integrated_infant" class="integrated infant age" tabindex="0">
+  </div>
+  <div id="integrated_toddler" class="integrated toddler age">
+  </div>
+  <div id="integrated_preschooler" class="integrated preschooler age" tabindex="0">
+  </div>
+  <div id="integrated_other" class="integrated other age" tabindex="0">
+  </div>
+  <div id='quality' class="h3" tabindex="0">
+    Quality
+  </div>
+  <div id="quality_africa" class="quality africa region" tabindex="0">
+  </div>
+  <div id="quality_east" class="quality east region" tabindex="0">
+  </div>
+  <div id="quality_south" class="quality south region" tabindex="0">
+  </div>
+  <div id="quality_latin" class="quality latin region" tabindex="0">
+  </div>
+  <div id="quality_pacific" class="quality pacific region" tabindex="0">
+  </div>
+  <div id="quality_1998" class="quality 1998 pubYear" tabindex="0">
+  </div>
+  <div id="quality_2006" class="quality 2006 pubYear" tabindex="0">
+  </div>
+  <div id="quality_2010" class="quality 2010 pubYear" tabindex="0">
+  </div>
+  <div id="quality_2014" class="quality 2014 pubYear" tabindex="0">
+  </div>
+  <div id="quality_newborn" class="quality newborn age" tabindex="0">
+  </div>
+  <div id="quality_infant" class="quality infant age" tabindex="0">
+  </div>
+  <div id="quality_toddler" class="quality toddler age" tabindex="0">
+  </div>
+  <div id="quality_preschooler" class="quality preschooler age" tabindex="0">
+  </div>
+  <div id="quality_other" class="quality other age" tabindex="0">
+  </div>
+  <div id='comparative' class="h3" tabindex="0">
+    Comparative
+  </div>
+  <div id="comparative_africa" class="comparative africa region" tabindex="0">
+  </div>
+  <div id="comparative_east" class="comparative east region" tabindex="0">
+  </div>
+  <div id="comparative_south" class="comparative south region" tabindex="0">
+  </div>
+  <div id="comparative_latin" class="comparative latin region" tabindex="0">
+  </div>
+  <div id="comparative_pacific" class="comparative pacific region" tabindex="0">
+  </div>
+  <div id="comparative_1998" class="comparative 1998 pubYear" tabindex="0">
+  </div>
+  <div id="comparative_2006" class="comparative 2006 pubYear" tabindex="0">
+  </div>
+  <div id="comparative_2010" class="comparative 2010 pubYear" tabindex="0">
+  </div>
+  <div id="comparative_2014" class="comparative 2014 pubYear" tabindex="0">
+  </div>
+  <div id="comparative_newborn" class="comparative newborn age" tabindex="0">
+  </div>
+  <div id="comparative_infant" class="comparative infant age" tabindex="0">
+  </div>
+  <div id="comparative_toddler" class="comparative toddler age" tabindex="0">
+  </div>
+  <div id="comparative_preschooler" class="comparative preschooler age" tabindex="0">
+  </div>
+  <div id="comparative_other" class="comparative other age" tabindex="0">
+  </div>
+</div>
+<div class="description" tabindex="0">
     Further information
   </h3>
   <p>To access the full report, please visit the following link.<br>
